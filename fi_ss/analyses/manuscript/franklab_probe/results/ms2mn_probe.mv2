@@ -1,0 +1,458 @@
+{
+    "cluster_attributes": {
+        "1": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "10": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "11": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "12": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "13": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "14": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "15": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "16": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "17": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "18": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "19": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "2": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "20": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "21": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "22": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "23": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "24": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "25": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "26": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "27": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "28": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "29": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "3": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "30": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "31": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "32": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "33": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "34": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "35": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "36": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "37": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "38": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "39": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "4": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "40": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "41": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "42": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "43": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "44": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "45": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "46": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "47": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "48": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "49": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "5": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "50": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "51": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "52": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "53": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "54": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "55": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "56": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "57": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "58": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "59": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "6": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "60": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "61": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "62": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "63": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "64": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "65": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "66": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "67": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "7": {
+            "tags": [
+                "accepted"
+            ]
+        },
+        "8": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "9": {
+            "tags": [
+                "rejected"
+            ]
+        }
+    },
+    "cluster_order_scores": [
+    ],
+    "cluster_order_scores_name": "",
+    "cluster_pair_attributes": {
+    },
+    "clusters_subset": [
+    ],
+    "current_timeseries_name": "Raw Data",
+    "electrode_geometry": {
+        "coordinates": [
+            [
+                0,
+                -280
+            ],
+            [
+                58,
+                -300
+            ],
+            [
+                0,
+                -240
+            ],
+            [
+                58,
+                -260
+            ],
+            [
+                0,
+                -200
+            ],
+            [
+                58,
+                -220
+            ],
+            [
+                0,
+                -160
+            ],
+            [
+                58,
+                -180
+            ],
+            [
+                0,
+                -120
+            ],
+            [
+                58,
+                -140
+            ],
+            [
+                0,
+                -80
+            ],
+            [
+                58,
+                -100
+            ],
+            [
+                0,
+                -40
+            ],
+            [
+                58,
+                -60
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                58,
+                -20
+            ]
+        ]
+    },
+    "firings": {
+        "original_checksum": "86a2fbf12fb0591f1d6ff944eef553c3647d0cd9",
+        "original_fcs": "head1000-9144c58a4b127d17d9a30613fb88c40ea3f9036f",
+        "original_path": "/typhoon/jason/fi_ss/analyses/franklab/neuron_paper/output/ms2mn--probe/firings.mda",
+        "original_size": 428109748,
+        "prv_version": "0.11"
+    },
+    "mlproxy_url": "",
+    "options": {
+        "amp_thresh_display": 3,
+        "cc_bin_size_msec": 0.5,
+        "cc_log_time_constant_msec": 1,
+        "cc_max_dt_msec": 100,
+        "cc_max_est_data_size": "1e4",
+        "clip_size": 100,
+        "discrim_hist_method": "centroid"
+    },
+    "samplerate": 30000,
+    "timeseries": {
+        "Raw Data": {
+            "data": {
+                "original_checksum": "bf91fafcefd530d23b2f50c428dd5537468de416",
+                "original_fcs": "head1000-b7a44051e90156976deed981f06740cf15aba7dc",
+                "original_path": "7hr_nt19_full.mda",
+                "original_size": 22977965268,
+                "prv_version": 0.1
+            },
+            "name": "Raw Data"
+        }
+    },
+    "view_merged": true,
+    "visibility_rule": {
+        "hide_rejected": true,
+        "subset": [
+        ],
+        "use_subset": false,
+        "view_all_tagged": true,
+        "view_all_untagged": true,
+        "view_tags": [
+        ]
+    },
+    "visible_channels": [
+    ]
+}

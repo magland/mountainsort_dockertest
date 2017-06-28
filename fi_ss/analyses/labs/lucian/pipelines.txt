@@ -1,0 +1,1 @@
+ms2_001 ms2_001.pipeline --detect_threshold=2.5 --freq_min=800 --detect_interval_msec=1

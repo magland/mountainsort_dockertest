@@ -1,0 +1,23 @@
+{
+	"general":{
+		"temporary_path":"/tmp",
+		"max_cache_size_gb":40
+	},
+	"mountainprocess":{
+		"max_num_simultaneous_processes":2,
+		"processor_paths":["mountainprocess/processors","user/processors","packages"]
+	},
+	"prv":{
+		"local_search_paths":["examples"],
+		"servers":[
+			{"name":"datalaboratory","passcode":"","host":"http://datalaboratory.org","port":8005},
+			{"name":"river","passcode":"","host":"http://river.simonsfoundation.org","port":60001},
+			{"name":"localhost","passcode":"","host":"http://localhost","port":8080}
+		]
+	},
+	"kron":{
+		"dataset_paths":["mountainsort/example_datasets","user/datasets"],
+		"pipeline_paths":["mountainsort/pipelines","user/pipelines","packages"],
+		"view_program_paths":["mountainsort/view_programs","/user/view_programs"]
+	}
+}

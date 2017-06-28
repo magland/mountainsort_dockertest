@@ -1,0 +1,130 @@
+{
+    "cluster_attributes": {
+        "1": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "10": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "13": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "17": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "19": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "20": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "24": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "3": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "4": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "5": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "9": {
+            "tags": [
+                "rejected"
+            ]
+        }
+    },
+    "cluster_order_scores": [
+    ],
+    "cluster_order_scores_name": "",
+    "cluster_pair_attributes": {
+    },
+    "clusters_subset": [
+    ],
+    "current_timeseries_name": "Raw Data",
+    "electrode_geometry": {
+        "coordinates": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "firings": {
+        "original_checksum": "9260c84173a9d287a2836cb2418b3cd473303009",
+        "original_fcs": "head1000-27acc82b9e0cfd72e17e0e05f3ba9c0766763c06",
+        "original_path": "firings_sc_tetrode_unofficial.mda",
+        "original_size": 31924916,
+        "prv_version": "0.11"
+    },
+    "mlproxy_url": "",
+    "options": {
+        "amp_thresh_display": 3,
+        "cc_bin_size_msec": 0.5,
+        "cc_log_time_constant_msec": 1,
+        "cc_max_dt_msec": 100,
+        "cc_max_est_data_size": "1e4",
+        "clip_size": 100,
+        "discrim_hist_method": "centroid"
+    },
+    "samplerate": 30000,
+    "timeseries": {
+        "Raw Data": {
+            "data": {
+                "original_checksum": "9a42d2fb7d0e2cfd8c206c2ddc30640472ffab3d",
+                "original_fcs": "head1000-a69967240e9dcc20197157eba8b64799a84df34a",
+                "original_path": "../../raw/20160426_kanye_02_r1.nt16.mda",
+                "original_size": 666616580,
+                "prv_version": 0.1
+            },
+            "name": "Raw Data"
+        }
+    },
+    "view_merged": false,
+    "visibility_rule": {
+        "hide_rejected": true,
+        "subset": [
+        ],
+        "use_subset": false,
+        "view_all_tagged": true,
+        "view_all_untagged": true,
+        "view_tags": [
+        ]
+    },
+    "visible_channels": [
+    ]
+}

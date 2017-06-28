@@ -1,0 +1,4 @@
+ms2mn ms2_002.pipeline --whiten=true --detect_sign=-1 --detect_threshold=4 --mask_out_artifacts=false --multineighborhood=true --adjacency_radius=100
+
+ks128 kilosort_001.pipeline --num_clusters=128
+ks256 kilosort_001.pipeline --num_clusters=256

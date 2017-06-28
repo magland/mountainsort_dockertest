@@ -1,0 +1,14 @@
+ms3_16thr ms3.pipeline --num_threads=16 --whiten=true --detect_sign=-1 --mask_out_artifacts=false --compute_metrics=true
+
+ms2mn ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true
+ms2mn_8thr ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true --num_threads=8
+ms2mn_16thr ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true --num_threads=16
+
+# KiloSort
+ks32 kilosort_001.pipeline --num_clusters=32
+ks64 kilosort_001.pipeline --num_clusters=64
+ks128 kilosort_001.pipeline --num_clusters=128
+ks256 kilosort_001.pipeline --num_clusters=256
+
+# Spyking Circus
+sc spyking_circus_001.pipeline --spike_thresh=4 --max_elts=1000

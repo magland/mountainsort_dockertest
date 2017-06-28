@@ -1,0 +1,8 @@
+tetrode datasets/franklab_np_tetrode_01
+
+# Note: need to talk with Jason about setting the params.json for probe dataset
+## probe datasets/franklab_np_probe_01
+
+# Ground truth comparison
+nk1 datasets/netokampff/nk1
+nk1_ch101-128 datasets/netokampff/nk1_ch101-128

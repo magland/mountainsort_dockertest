@@ -1,0 +1,5 @@
+ms2 ms2_002.pipeline --detect_threshold=3 --detect_sign=1
+ks32 kilosort_001.pipeline --num_clusters=32
+ks64 kilosort_001.pipeline --num_clusters=64
+sc spyking_circus_001.pipeline --spike_thresh=4
+truth use_truth.pipeline --firings_file_name=firings_true.mda

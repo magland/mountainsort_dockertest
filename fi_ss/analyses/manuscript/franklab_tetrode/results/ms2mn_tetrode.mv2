@@ -1,0 +1,716 @@
+{
+    "cluster_attributes": {
+        "1": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 1887.8719,
+                "firing_rate": 0.012183030003253928,
+                "isolation": 1,
+                "noise_overlap": 0,
+                "num_events": 23,
+                "overlap_cluster": 0,
+                "peak_amp": 29.83916664123535,
+                "peak_noise": 5.584091663360596,
+                "peak_snr": 5.343602583929947,
+                "t1_sec": 442.0847,
+                "t2_sec": 2329.9566
+            },
+            "tags": [
+                "low-rate",
+                "rejected"
+            ]
+        },
+        "10": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2687.6443,
+                "firing_rate": 0.15180580257588402,
+                "isolation": 0.9697297297297297,
+                "noise_overlap": 0.008642419877565755,
+                "num_events": 408,
+                "overlap_cluster": 7,
+                "peak_amp": 8.705159187316895,
+                "peak_noise": 2.255138635635376,
+                "peak_snr": 3.860143695717515,
+                "t1_sec": 58.00333333333333,
+                "t2_sec": 2745.6476333333335
+            },
+            "tags": [
+            ]
+        },
+        "11": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2685.2885,
+                "firing_rate": 0.25546603279312446,
+                "isolation": 0.9988249118683902,
+                "noise_overlap": 0.005287896592244379,
+                "num_events": 686,
+                "overlap_cluster": 8,
+                "peak_amp": 7.746989727020264,
+                "peak_noise": 2.446882963180542,
+                "peak_snr": 3.1660646804906687,
+                "t1_sec": 60.736533333333334,
+                "t2_sec": 2746.0250333333333
+            },
+            "tags": [
+            ]
+        },
+        "12": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2777.340866666667,
+                "firing_rate": 5.364843825555633,
+                "isolation": 0.995593419506463,
+                "noise_overlap": 0.012632197414806146,
+                "num_events": 14900,
+                "overlap_cluster": 33,
+                "peak_amp": 6.0972700119018555,
+                "peak_noise": 1.5164650678634644,
+                "peak_snr": 4.020712472125884,
+                "t1_sec": 0.18283333333333332,
+                "t2_sec": 2777.5237
+            },
+            "tags": [
+            ]
+        },
+        "13": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2777.363233333333,
+                "firing_rate": 21.89738787857745,
+                "isolation": 0.9941245593419507,
+                "noise_overlap": 0.3487074030552292,
+                "num_events": 60817,
+                "overlap_cluster": 30,
+                "peak_amp": 3.544818162918091,
+                "peak_noise": 1.687718152999878,
+                "peak_snr": 2.1003614594162316,
+                "t1_sec": 0.026033333333333332,
+                "t2_sec": 2777.3892666666666
+            },
+            "tags": [
+                "noise-overlapping",
+                "rejected"
+            ]
+        },
+        "14": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2769.5451333333335,
+                "firing_rate": 0.6510094305016682,
+                "isolation": 0.9797297297297297,
+                "noise_overlap": 0.003525264394829586,
+                "num_events": 1803,
+                "overlap_cluster": 16,
+                "peak_amp": 26.307819366455078,
+                "peak_noise": 3.508629083633423,
+                "peak_snr": 7.49803377312587,
+                "t1_sec": 6.3156,
+                "t2_sec": 2775.8607333333334
+            },
+            "tags": [
+            ]
+        },
+        "15": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2747.2797333333333,
+                "firing_rate": 0.5095949942823441,
+                "isolation": 1,
+                "noise_overlap": 0,
+                "num_events": 1400,
+                "overlap_cluster": 0,
+                "peak_amp": 18.680219650268555,
+                "peak_noise": 3.3129472732543945,
+                "peak_snr": 5.638550242279735,
+                "t1_sec": 6.705466666666666,
+                "t2_sec": 2753.9852
+            },
+            "tags": [
+            ]
+        },
+        "16": {
+            "metrics": {
+                "bursting_parent": 14,
+                "dur_sec": 2594.141866666667,
+                "firing_rate": 0.5238726599583554,
+                "isolation": 0.9797297297297297,
+                "noise_overlap": 0.002056404230317277,
+                "num_events": 1359,
+                "overlap_cluster": 14,
+                "peak_amp": 17.456947326660156,
+                "peak_noise": 3.9466819763183594,
+                "peak_snr": 4.4231958468933374,
+                "t1_sec": 6.797,
+                "t2_sec": 2600.938866666667
+            },
+            "tags": [
+            ]
+        },
+        "17": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2693.6197333333334,
+                "firing_rate": 0.13513414514139782,
+                "isolation": 0.9887005649717514,
+                "noise_overlap": 0.003225806451612856,
+                "num_events": 364,
+                "overlap_cluster": 18,
+                "peak_amp": 16.610477447509766,
+                "peak_noise": 2.648883104324341,
+                "peak_snr": 6.270747629592607,
+                "t1_sec": 50.6693,
+                "t2_sec": 2744.2890333333335
+            },
+            "tags": [
+            ]
+        },
+        "18": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2751.214633333333,
+                "firing_rate": 0.30277535962025215,
+                "isolation": 0.9887005649717514,
+                "noise_overlap": 0.011163337250293726,
+                "num_events": 833,
+                "overlap_cluster": 17,
+                "peak_amp": 10.289236068725586,
+                "peak_noise": 2.0449488162994385,
+                "peak_snr": 5.031537213408157,
+                "t1_sec": 16.8762,
+                "t2_sec": 2768.090833333333
+            },
+            "tags": [
+            ]
+        },
+        "19": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2756.8888666666667,
+                "firing_rate": 1.2115105691722599,
+                "isolation": 0.9991186839012925,
+                "noise_overlap": 0.010282021151586385,
+                "num_events": 3340,
+                "overlap_cluster": 31,
+                "peak_amp": 9.147214889526367,
+                "peak_noise": 2.1662111282348633,
+                "peak_snr": 4.222679299491907,
+                "t1_sec": 10.010733333333333,
+                "t2_sec": 2766.8996
+            },
+            "tags": [
+            ]
+        },
+        "2": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2715.8626,
+                "firing_rate": 0.04786692817228677,
+                "isolation": 0.9904214559386973,
+                "noise_overlap": 0,
+                "num_events": 130,
+                "overlap_cluster": 29,
+                "peak_amp": 27.027509689331055,
+                "peak_noise": 10.688112258911133,
+                "peak_snr": 2.5287449303123735,
+                "t1_sec": 3.308133333333333,
+                "t2_sec": 2719.1707333333334
+            },
+            "tags": [
+                "low-rate",
+                "rejected"
+            ]
+        },
+        "20": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2695.3917333333334,
+                "firing_rate": 0.04377842320309854,
+                "isolation": 0.9862579281183932,
+                "noise_overlap": 0.0021141649048626032,
+                "num_events": 118,
+                "overlap_cluster": 4,
+                "peak_amp": 8.977516174316406,
+                "peak_noise": 3.4248294830322266,
+                "peak_snr": 2.6213031097735184,
+                "t1_sec": 9.270966666666666,
+                "t2_sec": 2704.6627
+            },
+            "tags": [
+                "low-rate",
+                "rejected"
+            ]
+        },
+        "21": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2777.5216666666665,
+                "firing_rate": 26.637055936557353,
+                "isolation": 0.9976498237367802,
+                "noise_overlap": 0.02056404230317277,
+                "num_events": 73985,
+                "overlap_cluster": 27,
+                "peak_amp": 5.990448474884033,
+                "peak_noise": 1.7609608173370361,
+                "peak_snr": 3.4018067954191746,
+                "t1_sec": 0.0048,
+                "t2_sec": 2777.5264666666667
+            },
+            "tags": [
+            ]
+        },
+        "22": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2776.2714666666666,
+                "firing_rate": 10.484565486295384,
+                "isolation": 0.9670975323149236,
+                "noise_overlap": 0.2946533490011751,
+                "num_events": 29108,
+                "overlap_cluster": 34,
+                "peak_amp": 3.5616695880889893,
+                "peak_noise": 2.1572725772857666,
+                "peak_snr": 1.6510058235525362,
+                "t1_sec": 0.2001,
+                "t2_sec": 2776.4715666666666
+            },
+            "tags": [
+                "noise-overlapping",
+                "rejected"
+            ]
+        },
+        "23": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2614.0043,
+                "firing_rate": 0.09869914904118558,
+                "isolation": 0.9913085465958474,
+                "noise_overlap": 0.005794302269435003,
+                "num_events": 258,
+                "overlap_cluster": 24,
+                "peak_amp": 24.624082565307617,
+                "peak_noise": 3.1383583545684814,
+                "peak_snr": 7.846166620667315,
+                "t1_sec": 55.0212,
+                "t2_sec": 2669.0255
+            },
+            "tags": [
+            ]
+        },
+        "24": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2769.4277666666667,
+                "firing_rate": 1.8498406283281168,
+                "isolation": 0.9913085465958474,
+                "noise_overlap": 0.004110393423370495,
+                "num_events": 5123,
+                "overlap_cluster": 23,
+                "peak_amp": 15.581500053405762,
+                "peak_noise": 2.1735682487487793,
+                "peak_snr": 7.168627008779364,
+                "t1_sec": 6.4154333333333335,
+                "t2_sec": 2775.8432
+            },
+            "tags": [
+            ]
+        },
+        "25": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2769.4941,
+                "firing_rate": 0.5307828603065087,
+                "isolation": 0.999412455934195,
+                "noise_overlap": 0.010869565217391353,
+                "num_events": 1470,
+                "overlap_cluster": 31,
+                "peak_amp": 9.49264907836914,
+                "peak_noise": 1.848430871963501,
+                "peak_snr": 5.135517493432442,
+                "t1_sec": 7.006333333333333,
+                "t2_sec": 2776.500433333333
+            },
+            "tags": [
+            ]
+        },
+        "26": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2777.2675333333336,
+                "firing_rate": 24.170519834447347,
+                "isolation": 0.9903055229142186,
+                "noise_overlap": 0.381903642773208,
+                "num_events": 67128,
+                "overlap_cluster": 33,
+                "peak_amp": 3.7695910930633545,
+                "peak_noise": 1.6640669107437134,
+                "peak_snr": 2.265288173645992,
+                "t1_sec": 0.12146666666666667,
+                "t2_sec": 2777.389
+            },
+            "tags": [
+                "noise-overlapping",
+                "rejected"
+            ]
+        },
+        "27": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2768.1399,
+                "firing_rate": 0.2265058930005669,
+                "isolation": 0.9976498237367802,
+                "noise_overlap": 0.002643948296122245,
+                "num_events": 627,
+                "overlap_cluster": 21,
+                "peak_amp": 19.6457462310791,
+                "peak_noise": 2.965501546859741,
+                "peak_snr": 6.624763440734864,
+                "t1_sec": 2.8089,
+                "t2_sec": 2770.9488
+            },
+            "tags": [
+            ]
+        },
+        "28": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2761.114633333333,
+                "firing_rate": 1.4584689644480415,
+                "isolation": 0.9841363102232668,
+                "noise_overlap": 0.004112808460634554,
+                "num_events": 4027,
+                "overlap_cluster": 32,
+                "peak_amp": 17.576078414916992,
+                "peak_noise": 2.402000904083252,
+                "peak_snr": 7.317265528517809,
+                "t1_sec": 15.9535,
+                "t2_sec": 2777.068133333333
+            },
+            "tags": [
+            ]
+        },
+        "29": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2773.9405,
+                "firing_rate": 2.314397154517193,
+                "isolation": 0.9904214559386973,
+                "noise_overlap": 0.003525264394829586,
+                "num_events": 6420,
+                "overlap_cluster": 2,
+                "peak_amp": 13.789759635925293,
+                "peak_noise": 2.1432390213012695,
+                "peak_snr": 6.434074547388946,
+                "t1_sec": 2.892733333333333,
+                "t2_sec": 2776.8332333333333
+            },
+            "tags": [
+            ]
+        },
+        "3": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2573.8030666666664,
+                "firing_rate": 0.01942650572126135,
+                "isolation": 1,
+                "noise_overlap": 0,
+                "num_events": 50,
+                "overlap_cluster": 0,
+                "peak_amp": 26.562734603881836,
+                "peak_noise": 3.7243289947509766,
+                "peak_snr": 7.132220231166212,
+                "t1_sec": 12.281433333333334,
+                "t2_sec": 2586.0845
+            },
+            "tags": [
+                "low-rate",
+                "rejected"
+            ]
+        },
+        "30": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2774.303066666667,
+                "firing_rate": 5.932300691205426,
+                "isolation": 0.9941245593419507,
+                "noise_overlap": 0.01145710928319621,
+                "num_events": 16458,
+                "overlap_cluster": 13,
+                "peak_amp": 13.471208572387695,
+                "peak_noise": 2.097421407699585,
+                "peak_snr": 6.422747723912421,
+                "t1_sec": 2.9108666666666667,
+                "t2_sec": 2777.2139333333334
+            },
+            "tags": [
+            ]
+        },
+        "31": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2765.3985333333335,
+                "firing_rate": 1.3838873326467855,
+                "isolation": 0.9991186839012925,
+                "noise_overlap": 0.012044653349001178,
+                "num_events": 3827,
+                "overlap_cluster": 19,
+                "peak_amp": 10.617427825927734,
+                "peak_noise": 2.50687313079834,
+                "peak_snr": 4.2353271473879905,
+                "t1_sec": 11.671266666666666,
+                "t2_sec": 2777.0698
+            },
+            "tags": [
+            ]
+        },
+        "32": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2771.2411,
+                "firing_rate": 2.694099766346566,
+                "isolation": 0.9841363102232668,
+                "noise_overlap": 0.015863689776733247,
+                "num_events": 7466,
+                "overlap_cluster": 28,
+                "peak_amp": 9.223367691040039,
+                "peak_noise": 1.5803383588790894,
+                "peak_snr": 5.836324632138928,
+                "t1_sec": 5.588433333333334,
+                "t2_sec": 2776.8295333333335
+            },
+            "tags": [
+            ]
+        },
+        "33": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2776.0173999999997,
+                "firing_rate": 3.3220252870172935,
+                "isolation": 0.9903055229142186,
+                "noise_overlap": 0.036406341749853244,
+                "num_events": 9222,
+                "overlap_cluster": 26,
+                "peak_amp": 7.52390193939209,
+                "peak_noise": 1.966689944267273,
+                "peak_snr": 3.8256675696764493,
+                "t1_sec": 0.4689333333333333,
+                "t2_sec": 2776.4863333333333
+            },
+            "tags": [
+                "noise-overlapping",
+                "rejected"
+            ]
+        },
+        "34": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2777.2962666666663,
+                "firing_rate": 9.921519835934442,
+                "isolation": 0.9670975323149236,
+                "noise_overlap": 0.30757931844888364,
+                "num_events": 27555,
+                "overlap_cluster": 22,
+                "peak_amp": 3.5681920051574707,
+                "peak_noise": 1.6216490268707275,
+                "peak_snr": 2.200347884179944,
+                "t1_sec": 0.2002,
+                "t2_sec": 2777.4964666666665
+            },
+            "tags": [
+                "noise-overlapping",
+                "rejected"
+            ]
+        },
+        "4": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2677.1572666666666,
+                "firing_rate": 0.13783276933127003,
+                "isolation": 0.9737051792828685,
+                "noise_overlap": 0.007968127490039834,
+                "num_events": 369,
+                "overlap_cluster": 6,
+                "peak_amp": 15.499801635742188,
+                "peak_noise": 2.800497531890869,
+                "peak_snr": 5.534659987818975,
+                "t1_sec": 66.57956666666666,
+                "t2_sec": 2743.7368333333334
+            },
+            "tags": [
+            ]
+        },
+        "5": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2689.7512333333334,
+                "firing_rate": 0.9945157629633085,
+                "isolation": 0.9961685823754789,
+                "noise_overlap": 0.004112808460634554,
+                "num_events": 2675,
+                "overlap_cluster": 2,
+                "peak_amp": 12.984795570373535,
+                "peak_noise": 3.7682125568389893,
+                "peak_snr": 3.445876625724635,
+                "t1_sec": 75.32806666666667,
+                "t2_sec": 2765.0793
+            },
+            "tags": [
+            ]
+        },
+        "6": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2759.2942666666663,
+                "firing_rate": 1.3492580494133115,
+                "isolation": 0.9737051792828685,
+                "noise_overlap": 0.005581668625146863,
+                "num_events": 3723,
+                "overlap_cluster": 4,
+                "peak_amp": 10.881657600402832,
+                "peak_noise": 2.4903032779693604,
+                "peak_snr": 4.3696114030239475,
+                "t1_sec": 8.264,
+                "t2_sec": 2767.5582666666664
+            },
+            "tags": [
+            ]
+        },
+        "7": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2760.5649,
+                "firing_rate": 0.5328619515520175,
+                "isolation": 0.9571092831962397,
+                "noise_overlap": 0.01145710928319621,
+                "num_events": 1471,
+                "overlap_cluster": 9,
+                "peak_amp": 9.792746543884277,
+                "peak_noise": 2.714144229888916,
+                "peak_snr": 3.6080420620407017,
+                "t1_sec": 8.0133,
+                "t2_sec": 2768.5782
+            },
+            "tags": [
+            ]
+        },
+        "8": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2726.8312,
+                "firing_rate": 0.3964308461777905,
+                "isolation": 0.9776733254994124,
+                "noise_overlap": 0.001175088131609825,
+                "num_events": 1081,
+                "overlap_cluster": 9,
+                "peak_amp": 9.604570388793945,
+                "peak_noise": 2.267627000808716,
+                "peak_snr": 4.23551597567352,
+                "t1_sec": 36.50203333333334,
+                "t2_sec": 2763.3332333333333
+            },
+            "tags": [
+            ]
+        },
+        "9": {
+            "metrics": {
+                "bursting_parent": 0,
+                "dur_sec": 2763.119666666667,
+                "firing_rate": 0.7317815527111323,
+                "isolation": 0.9571092831962397,
+                "noise_overlap": 0.004994124559342006,
+                "num_events": 2022,
+                "overlap_cluster": 7,
+                "peak_amp": 9.16495132446289,
+                "peak_noise": 2.0224826335906982,
+                "peak_snr": 4.531535239040108,
+                "t1_sec": 5.588466666666666,
+                "t2_sec": 2768.7081333333335
+            },
+            "tags": [
+            ]
+        }
+    },
+    "cluster_order_scores": [
+    ],
+    "cluster_order_scores_name": "",
+    "cluster_pair_attributes": {
+        "pair_14_16": {
+            "tags": [
+                "merged"
+            ]
+        },
+        "pair_16_14": {
+            "tags": [
+                "merged"
+            ]
+        }
+    },
+    "clusters_subset": [
+    ],
+    "current_timeseries_name": "Raw Data",
+    "electrode_geometry": {
+        "coordinates": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "firings": {
+        "original_checksum": "987a9320e60741a8d6a30a72641aa5660d57d3cf",
+        "original_fcs": "head1000-220c895ac11fe9de1c3a3a4a4649c314059b73b6",
+        "original_path": "ms2firings.mda",
+        "original_size": 11207892,
+        "prv_version": "0.11"
+    },
+    "mlproxy_url": "",
+    "options": {
+        "amp_thresh_display": 3,
+        "cc_bin_size_msec": 0.5,
+        "cc_log_time_constant_msec": 1,
+        "cc_max_dt_msec": 100,
+        "cc_max_est_data_size": "1e4",
+        "clip_size": 100,
+        "curation_program": "var noise_overlap_threshold=0.03;\nvar peak_snr_threshold=1.5;\nvar isolation_threshold=0.9;\nvar low_rate_threshold=0.05;\n\n// Initialize\nfor (var i in clusters) {\n\tclusters[i].removeTag('rejected');\n\tclusters[i].removeTag('low-snr');\n\tclusters[i].removeTag('noise-overlapping');\n\tclusters[i].removeTag('non-isolated');\n\tclusters[i].removeTag('low-rate');\n}\n\nconsole.log('\\nnoise_overlap');\nfor (var i in clusters) {\t\n\tif (clusters[i].metric('noise_overlap')>noise_overlap_threshold) {\n\t\tconsole.log('Noise overlapping: '+clusters[i].k());\n\t\tclusters[i].addTag('rejected');\n\t\tclusters[i].addTag('noise-overlapping');\n\t}\n}\n\nconsole.log('\\npeak_snr');\nfor (var i in clusters) {\t\n\tif (clusters[i].metric('peak_snr')<peak_snr_threshold) {\n\t\tconsole.log('Low snr: '+clusters[i].k());\n\t\tclusters[i].addTag('rejected');\n\t\tclusters[i].addTag('low-snr');\n\t}\n}\n\nconsole.log('\\nnon_isolated');\nfor (var i in clusters) {\t\n\tif (clusters[i].metric('isolation')<isolation_threshold) {\n\t\tconsole.log('Non-isolated: '+clusters[i].k());\n\t\tclusters[i].addTag('rejected');\n\t\tclusters[i].addTag('non-isolated');\n\t}\n}\n\nconsole.log('\\nlow_rate');\nfor (var i in clusters) {\n\tif (clusters[i].metric('firing_rate')<low_rate_threshold) {\n\tconsole.log('Low rate: '+clusters[i].k());\n\tclusters[i].addTag('rejected');\n\tclusters[i].addTag('low-rate');\n\t}\n}\n\n\n",
+        "discrim_hist_method": "centroid"
+    },
+    "samplerate": 30000,
+    "timeseries": {
+        "Raw Data": {
+            "data": {
+                "original_checksum": "9a42d2fb7d0e2cfd8c206c2ddc30640472ffab3d",
+                "original_fcs": "head1000-a69967240e9dcc20197157eba8b64799a84df34a",
+                "original_path": "../../raw/20160426_kanye_02_r1.nt16.mda",
+                "original_size": 666616580,
+                "prv_version": 0.1
+            },
+            "name": "Raw Data"
+        }
+    },
+    "view_merged": true,
+    "visibility_rule": {
+        "hide_rejected": true,
+        "subset": [
+        ],
+        "use_subset": false,
+        "view_all_tagged": true,
+        "view_all_untagged": true,
+        "view_tags": [
+        ]
+    },
+    "visible_channels": [
+    ]
+}

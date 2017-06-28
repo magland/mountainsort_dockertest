@@ -1,0 +1,10 @@
+ms3 ms3.pipeline --detect_threshold=3
+
+# KiloSort
+ks32 kilosort_001.pipeline --num_clusters=32
+ks64 kilosort_001.pipeline --num_clusters=64
+ks128 kilosort_001.pipeline --num_clusters=128
+ks256 kilosort_001.pipeline --num_clusters=256
+
+# Spyking Circus
+sc spyking_circus_001.pipeline --spike_thresh=4 --max_elts=1000

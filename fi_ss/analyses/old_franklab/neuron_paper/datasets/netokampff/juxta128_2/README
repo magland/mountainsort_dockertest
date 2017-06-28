@@ -1,0 +1,73 @@
+sorting of Neto-Kampff data for which there's juxtacellular
+ground truth.
+http://www.kampff-lab.org/validating-electrodes/
+Go to 2nd in the 128-channel set.
+Data is around 6 GB.
+Barnett 3/30/17
+
+30kHz
+juxta is 72 um (intermediate distance)
+from electrode 110 (bottom end of probe)
+
+for analyses see fi_ss/analyses/franklab/gndtruthtable/
+
+Setup notes:
+Compile mountainlab. Needed to fix mdaio.cpp!
+Edit mountainlab.user.json to point to new ms2 pipelines, eg "pipeline_paths":["mountainsort/pipelines","/user/pipelines","packages/mountainsort2/algs/"]
+
+cd /data/ahb/neuron/fi_ss/datasets/netokampff/juxta128_2
+prv-create /data/ahb/neuron/Kampff/2015_09_04_Pair_5_0/kampff128_2_raw.mda raw.mda.prv
+
+# check it worked:
+prv-locate raw.mda.prv
+# gives: /data/ahb/neuron/Kampff/2015_09_04_Pair_5_0/kampff128_2_raw.mda
+
+# set up pipelines.txt and datasets.txt in
+# /data/ahb/neuron/fi_ss/analyses/franklab/gndtruthtable
+
+# point to pipelines in mountainlab/
+
+addpath mountainlab/matlab/msutils/ 
+addpath mountainlab/matlab/processing/
+
+# fi_ss should ship a use.json example ?
+
+kron-run ms2 jux128n2 --_nodaemon
+
+crashes out at bandpass
+
+but example2 etc works with ms2
+
+# need util to check a file is a valid MDA: it's "mda":
+mda raw.mda
+#outputs a json w/ params.
+
+# failure for 128 ch - fixed, was int32 vs 64 issue. MN>2^31
+
+
+#-------------------------------------------
+
+kron-run msu jux128n2sh --_nodaemon
+
+Elapsed time (sec):
+
+  0.028 (geom2adj)
+
+  5.981 (bandpass_filter)
+  3.785 (mask_out_artifacts)
+
+  27.884 (whiten)
+
+  6.528 (detect)
+
+  106.357 (isocluster_v1)
+
+  127.654 (merge_across_channels_v2)
+
+  23.074 (fit_stage)
+  104.394 (ms_metrics)
+
+BUt why
+kron-run msmu jux128n2sh --_nodaemon
+which has only -1 sign, ran instantly and gave exactly K=285 as in sign=0 (msu)?
+

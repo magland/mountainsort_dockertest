@@ -1,0 +1,32 @@
+ms2mn ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true
+ms2mn_test ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true
+ms2mnq ms2_002.pipeline --whiten=true --curation=curation.ms2mn.script --multineighborhood=true --quantization_unit=1
+
+# comparison with manual (for tetrode)
+manual1 use_truth.pipeline --firings_file_name=firings_manclust1.mda
+manual2 use_truth.pipeline --firings_file_name=firings_manclust2.mda
+manual3 use_truth.pipeline --firings_file_name=firings_manclust3.mda
+
+# comparison with juxta ground truth (for neto-kampff)
+juxta use_truth.pipeline --firings_file_name=firings_juxta.mda
+
+# pull up the static results
+results_ms2mn use_truth.pipeline --firings_file_name=RESULTS_firings_ms2mn.mda
+results_ks256 use_truth.pipeline --firings_file_name=RESULTS_firings_ks256.mda
+results_sc use_truth.pipeline --firings_file_name=RESULTS_firings_sc.mda
+
+# KiloSort
+ks32 kilosort_001.pipeline --num_clusters=32
+ks64 kilosort_001.pipeline --num_clusters=64
+ks128 kilosort_001.pipeline --num_clusters=128
+ks256 kilosort_001.pipeline --num_clusters=256
+
+# Spyking Circus
+sc spyking_circus_001.pipeline --spike_thresh=4 --max_elts=1000
+sc10000 spyking_circus_001.pipeline --spike_thresh=4 --max_elts=10000
+
+# older stuff
+ms1 mountainsort_002.pipeline --curation=curation_ms2.script --detect_threshold=3
+ms2 ms2_001.pipeline --detect_sign=-1 --curation=curation_ms2.script --fit_stage=true --freq_min=300
+ms2_mc ms2_001.pipeline --detect_sign=-1 --multichannel=true --curation=curation_ms2.script --adjacency_radius=100 --fit_stage=true --merge_across_channels=true --detect_interval_msec=.33
+ms2_mc_npt ms2_001.pipeline --_force_run --detect_sign=0 --freq_min=300 --clip_size_msec=1.7 --detect_threshold=3 --fit_stage=true --multichannel=true --curation=curation_ms2.script --adjacency_radius=100 --merge_across_channels=true --detect_interval_msec=.3

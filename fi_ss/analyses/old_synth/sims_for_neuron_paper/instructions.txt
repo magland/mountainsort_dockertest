@@ -1,0 +1,19 @@
+Install and configure MountainLab
+
+Optionally install the KiloSort processor plugin: ml_kilosort
+Optionally install the Spyking Circus processor plugin: ml_spyking_circus
+
+1. Generate the datasets in matlab
+
+Edit and run generate_datasets/generate_datasets.m
+
+2. Run the spike sorting
+
+kron-run truth all
+kron-run ms2 all
+optional: kron-run ks32 all
+optional: kron-run sc all
+
+3. Analyze the results in matlab
+
+Run analyze_results/analyze_results.m

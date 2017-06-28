@@ -1,0 +1,2 @@
+ms2mn ms2_002.pipeline --whiten=false --detect_sign=-1 --multineighborhood=true --mask_out_artifacts=false
+sc spyking_circus_001.pipeline --spike_thresh=6

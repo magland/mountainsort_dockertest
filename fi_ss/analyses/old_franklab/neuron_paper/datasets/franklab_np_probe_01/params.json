@@ -1,0 +1,6 @@
+{
+	"samplerate":30000,
+	"adjacency_radius":100,
+	"detect_sign":-1,
+	"mask_out_artifacts":"true"
+}

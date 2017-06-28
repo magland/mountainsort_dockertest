@@ -1,0 +1,15 @@
+kron-run truth1 jux128n1
+kron-view results truth1 jux128n1
+
+kron-run ms2mn jux128n1
+kron-view results ms2mn jux128n1
+kron-view compare_results truth1,ms2mn
+
+kron-run ks256 jux128n1
+kron-view results ks256 jux128n1
+kron-view compare_results truth1,ks256
+
+# repeat for other algorithms
+
+
+

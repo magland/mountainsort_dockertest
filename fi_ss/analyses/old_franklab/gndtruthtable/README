@@ -1,0 +1,73 @@
+Notes about sorting neto-kampff 128-channel datasets. Barnett.
+
+See netokampff/extracting_juxta128n*.m for MATLAB code to convert downloaded
+files from
+http://www.kampff-lab.org/validating-electrodes/
+into MDA for mountainsort.
+
+
+juxta128n1 : downloaded name 2015_09_03_Pair_9_0, closest electrode case (29um)
+juxta128n2 : downloaded name 2015_09_04_Pair_5_0, next closest (72um).
+
+There are some subsets of channels and shorter times datasets too.
+
+
+
+
+
+
+------------------------- old notes from 4-6-17:
+
+Conclusion: for the 2nd-closest 128-ch (jux128n2), 99% of events are false pos, and only ~20 events out of 243 match.
+It is impossible to spike sort this neuron.
+
+For closest (jux128n1), 
+jux128n1 is 10-min * 128 ch:
+10 min to sort.
+14 min if merge.
+
+---------------
+timing info for ms2mu on jux128n2 : (13.7 min dataset, 128-ch)
+
+  626.759 (mountainsort.ms2_001_multichannel)
+
+  37.057 (mountainsort.fit_stage)
+
+  5.013 (mountainsort.compute_templates)
+
+  1.011 (mountainsort.reorder_labels)
+
+  1.047 (mountainsort.cluster_metrics)
+
+  71.76 (mountainsort.isolation_metrics)
+
+  1.006 (mountainsort.combine_cluster_metrics)
+
+
+
+--------------------timing info for ms2mu25 on jux128n2 :
+
+Elapsed time (sec):
+
+  624.737 (mountainsort.ms2_001_multichannel)
+
+  73.193 (mountainsort.fit_stage)
+
+  8.017 (mountainsort.compute_templates)
+
+  1.012 (mountainsort.reorder_labels)
+
+  1.049 (mountainsort.cluster_metrics)
+
+  79.859 (mountainsort.isolation_metrics)
+
+  1.027 (mountainsort.combine_cluster_metrics)
+
+
+real	13m15.577s
+user	50m51.585s
+sys	20m10.368s
+
+----------------------------
+
+

@@ -1,0 +1,96 @@
++++++++++++++++++++++++++++++++++++++++++++
+{"name":"ds1_ch1-40","folder":"datasets/ds1_ch1-40","absolute_folder_path":"./datasets/ds1_ch1-40","dataset_params":{"samplerate":20000},"arguments":[]}
+{"name":"ms2mn","script":"ms2_002.pipeline","absolute_script_path":"/home/magland/dev/mountainlab/kron/../packages/mountainsort2/algs/ms2_002.pipeline","pipeline_params":{"whiten":"true","detect_sign":"-1","detect_threshold":"4","mask_out_artifacts":"false","multineighborhood":"true","adjacency_radius":"100"},"arguments":[],"absolute_curation_script_path":""}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+"run-script /home/magland/dev/mountainlab/kron/../packages/mountainsort2/algs/ms2_002.pipeline ./datasets/ds1_ch1-40/params.json --raw=./datasets/ds1_ch1-40/raw.mda.prv --geom=./datasets/ds1_ch1-40/geom.csv --inpath=./datasets/ds1_ch1-40 --samplerate=20000 --whiten=true --detect_sign=-1 --detect_threshold=4 --mask_out_artifacts=false --multineighborhood=true --adjacency_radius=100 --outpath=output/ms2mn--ds1_ch1-40 --_script_output=output/ms2mn--ds1_ch1-40/pipeline_output.json"
+Running mountainprocess run-script /home/magland/dev/mountainlab/kron/../packages/mountainsort2/algs/ms2_002.pipeline ./datasets/ds1_ch1-40/params.json --raw=./datasets/ds1_ch1-40/raw.mda.prv --geom=./datasets/ds1_ch1-40/geom.csv --inpath=./datasets/ds1_ch1-40 --samplerate=20000 --whiten=true --detect_sign=-1 --detect_threshold=4 --mask_out_artifacts=false --multineighborhood=true --adjacency_radius=100 --outpath=output/ms2mn--ds1_ch1-40 --_script_output=output/ms2mn--ds1_ch1-40/pipeline_output.json
+Debug: Cleaning up completed process records...
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/0a88bc424ab6b2e129bc9d59df4641c1b92a6240.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/0a88bc424ab6b2e129bc9d59df4641c1b92a6240.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/145b39204855f39832586dd6dcaf378c83cbb2ef.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/256c8ee4e0d7d63509ee6b59262ebd486cbb426e.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/256c8ee4e0d7d63509ee6b59262ebd486cbb426e.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/33489605161a9bb1af2420a15a3131ae70f9462d.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/33489605161a9bb1af2420a15a3131ae70f9462d.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/3499637f3dcbe1d146485b658f71eaaeced8d483.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/3499637f3dcbe1d146485b658f71eaaeced8d483.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/4375a7bc98d1456cf8704fb80db0738281849bd9.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/480a98aa05baf879cedb5f224b3b74dee5d9a723.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/480a98aa05baf879cedb5f224b3b74dee5d9a723.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/778eaf76d257320b39beac206ccdeb346d460048.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/778eaf76d257320b39beac206ccdeb346d460048.json
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/778eaf76d257320b39beac206ccdeb346d460048.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/899c40e17a10db355aa46d3e5370c3f5d964f7da.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/94a4131f1817a4f256d4f27d283be0eb577b97fc.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/94a4131f1817a4f256d4f27d283be0eb577b97fc.json
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/94a4131f1817a4f256d4f27d283be0eb577b97fc.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/964e6d8d83be74bd1e3a0e47af1fd692d3588e3e.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/964e6d8d83be74bd1e3a0e47af1fd692d3588e3e.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/9cc506e4a1c357f37fb990e092153f74eb1b7c6f.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/9d33a893cbb415acf174f79d8b84ff9f6b92c47a.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/9d33a893cbb415acf174f79d8b84ff9f6b92c47a.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a1be808701c5a371448acd6b04232ab15c48d9d7.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a1be808701c5a371448acd6b04232ab15c48d9d7.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a3d31a79db878cb6458b98dca67b843009d92231.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a3d31a79db878cb6458b98dca67b843009d92231.json
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a3d31a79db878cb6458b98dca67b843009d92231.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a4360ded5bb9363c7dcedec11882830c1311e81b.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/a4360ded5bb9363c7dcedec11882830c1311e81b.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/c2559360bd5b45e3a458d666ebe98b17d5593016.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/c2559360bd5b45e3a458d666ebe98b17d5593016.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/c6fa95d219e95ddf54be34e846a449ec757326ac.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/c6fa95d219e95ddf54be34e846a449ec757326ac.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/f89d123c8ca02ce0755fe40b3ce9e71a3162d9b0.json
+
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/f89d123c8ca02ce0755fe40b3ce9e71a3162d9b0.json
+Debug: Removing completed process record: /disk1/tmp/mountainlab/mpdaemon/completed_processes/f89d123c8ca02ce0755fe40b3ce9e71a3162d9b0.json
+
+SCRIPT: bandpass_filter: ./datasets/ds1_ch1-40/raw.mda.prv
+
+SCRIPT: :::::::::::::::: {"adjacency_radius":100,"detect_sign":-1,"detect_threshold":4,"geom":"./datasets/ds1_ch1-40/geom.csv","inpath":"./datasets/ds1_ch1-40","mask_out_artifacts":"","multineighborhood":"true","outpath":"output/ms2mn--ds1_ch1-40","raw":"./datasets/ds1_ch1-40/raw.mda.prv","samplerate":20000,"whiten":"","channels":"","clip_size_msec":1.67,"compute_bursting_parents":"true","consolidate_clusters":"true","consolidation_factor":0.9,"detect_interval_msec":0.33,"fit_stage":"","freq_max":6000,"freq_min":300,"freq_wid":1000,"mask_out_artifacts_interval":"","mask_out_artifacts_threshold":"","merge_across_neighborhoods":"","num_threads":0,"prescribed_event_times":"","quantization_unit":0,"segment_duration_sec":3600,"subsample_factor":1}
+
+SCRIPT: ################################# ./datasets/ds1_ch1-40/raw.mda.prv
+
+Queuing process from script controller: mountainsort.bandpass_filter
+
+Debug: /home/magland/dev/mountainlab/mountainprocess/bin/mountainprocess queue-process mountainsort.bandpass_filter --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=20000 --testcode= --timeseries=/home/magland/dev/fi_ss/analyses/labs/chichilnisky/proj1_2005_04_26/datasets/ds1_ch1-40/raw.mda --timeseries_out=/disk1/tmp/mountainlab/tmp_long_term/6ab31e89eeb111ccc2dc11139bf17feed524d069-mountainsort.bandpass_filter-timeseries_out.tmp --_working_path=/disk1/fi_ss/analyses/labs/chichilnisky/proj1_2005_04_26 --_process_output=/disk1/tmp/mountainlab/tmp_short_term/ms.1126289367.140613962901312.489035169.tmp.process_output
+
+COPYING FILE: /disk1/fi_ss/analyses/labs/chichilnisky/proj1_2005_04_26/./datasets/ds1_ch1-40/geom.csv -> /disk1/fi_ss/analyses/labs/chichilnisky/proj1_2005_04_26/output/ms2mn--ds1_ch1-40/geom.csv
+mountainsort.bandpass_filter:: shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+STARTING: /home/magland/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.bandpass_filter --timeseries=/home/magland/dev/fi_ss/analyses/labs/chichilnisky/proj1_2005_04_26/datasets/ds1_ch1-40/raw.mda --timeseries_out=/disk1/tmp/mountainlab/tmp_long_term/6ab31e89eeb111ccc2dc11139bf17feed524d069-mountainsort.bandpass_filter-timeseries_out.tmp --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=20000 --testcode= --_tempdir=/disk1/tmp/mountainlab/tmp_short_term/tempdir_U4QR4JNZPY .
+
+mountainsort.bandpass_filter:: samplerate/freq_min/freq_max/freq_wid: 20000 300 6000 1000
+

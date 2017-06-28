@@ -1,0 +1,9 @@
+jux128n2 netokampff/juxta128_2
+jux128n2sh netokampff/juxta128_2_1min
+jux128n2sm netokampff/juxta128_2_32
+jux128n2tet netokampff/juxta128_2_4
+jux128n1 netokampff/juxta128_1
+
+jux128n1_ch111-128 netokampff/juxta128_1_ch111-128
+jux128n1_ch91-128 netokampff/juxta128_1_ch91-128
+jux128n1_ch71-128 netokampff/juxta128_1_ch71-128

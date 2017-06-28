@@ -1,0 +1,758 @@
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: spyking_circus_001.pipeline
++++++++++++++++++++++++++++++++++++++++++++
+{"name":"1hr","folder":"datasets/1hr","absolute_folder_path":"./datasets/1hr","dataset_params":{"samplerate":30000,"adjacency_radius":100,"detect_sign":-1,"mask_out_artifacts":"true"},"arguments":[]}
+{"name":"ms3_16thr","script":"ms3.pipeline","absolute_script_path":"/mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline","pipeline_params":{"num_threads":"16","whiten":"true","detect_sign":"-1","mask_out_artifacts":"false","compute_metrics":"true"},"arguments":[],"absolute_curation_script_path":""}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+"run-script /mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline ./datasets/1hr/params.json --raw=./datasets/1hr/raw.mda.prv --geom=./datasets/1hr/geom.csv --inpath=./datasets/1hr --samplerate=30000 --adjacency_radius=100 --detect_sign=-1 --mask_out_artifacts=false --num_threads=16 --whiten=true --compute_metrics=true --_force_run --_nodaemon --outpath=output/ms3_16thr--1hr --_script_output=output/ms3_16thr--1hr/pipeline_output.json"
+Running mountainprocess run-script /mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline ./datasets/1hr/params.json --raw=./datasets/1hr/raw.mda.prv --geom=./datasets/1hr/geom.csv --inpath=./datasets/1hr --samplerate=30000 --adjacency_radius=100 --detect_sign=-1 --mask_out_artifacts=false --num_threads=16 --whiten=true --compute_metrics=true --_force_run --_nodaemon --outpath=output/ms3_16thr--1hr --_script_output=output/ms3_16thr--1hr/pipeline_output.json
+Debug: Cleaning up completed process records...
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/00a7a90ab468c635e3e33d16d33140a942e6fd37.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/01067ccf4196985b43dba8e6f093ccac745ddbb8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0134cb7f14dfd82f8d8caf833ab97266ab486f87.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0157836c55a7ab388b91c543f01d6cd29f98cc2b.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0347293cf6289e09914234d659449184f0f09d02.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0402f02d36378ece61cc9bb6d0097efc60e6e36f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/045ed9020f6a6f62bfd97dafd7ddc2bde2f152a2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/052606535f009eeca245c82777ec975b7f5a3cd6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0643931cca3da89983d655923e7439fffbcb153c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/07d8eff2b01ca94216f24dd03533f0a43d6b7dea.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/07d8eff2b01ca94216f24dd03533f0a43d6b7dea.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/07d8eff2b01ca94216f24dd03533f0a43d6b7dea.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/07d8eff2b01ca94216f24dd03533f0a43d6b7dea.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/082dbf59af1c1bbc5297a3056061accb824ad3c9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/082dbf59af1c1bbc5297a3056061accb824ad3c9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0937438858167137309f3b55d06c3f7072da6713.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/09b7274eea0e8a048a6b67ac9cdcc9bcc27f93a8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0ba5c0d7a8993a1009dc718759215c43eaea83f8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0bd8611e32c5e993b65e2b80425ac1c6ca1a7184.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0f2245464f8b832b43fcfa1e41150a1439405637.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/0fd6b2afefb02c0117e7e7318828a67273487105.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/104e50db5cf496c87a1693c9d66bec3e9ffa6310.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/117ba1bee12c53ee4566a30baf8b5ad8f5f323be.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/127d7f7171ab0a89b7831971cc0d2e5e7dddd499.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/12992108a37ed4c5e45081e9ff94cee2201293d0.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/13d9334e9332bef3ed881102015d0ceea4255fb6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/153e6adc72847ca986090752c7f1cc5fe0b2dd27.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/154f45f9ab17c9539bb0ee82ee6556ba148ee81a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/157bf58429b1fbde222a8f1a3f5dfc71585cd1c2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/1581b1b70e8072952666e428eb7709952ac904f5.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/15d9d66bd007dbac97271f8498a3f8f40da82f95.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/15e596e35c4cecaf85d89225d387f1d3dbaee40a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/168dcadc8bb97cc8e9f92f461bda4fb3473ac964.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/174ea37dabcd0f9ae770f3e6086cfe6aa6feec46.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/1753d8a8d7097a16520d43a3437d30d975cae6ad.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/18cd0ea9c563fee83f75d4470f82fb1796a50279.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/1c361ce7dbeb7fd1a025217322a107d41e2988d9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/1ff8b9348cca547505df6f344ce9b220b3126dd4.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/2038533da872bb7542d53f14eea99ff39d2a149d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/239e9c671e17bc356812708bfbaece15247ff45d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/25febb934f34539d4a55331139e7811560061971.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/27b0c27b0c65a10e0d7c69c257f84c6e6fa7f913.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/28777bced132825e01d48095b1583212dadc0e88.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/29160eb90e2dc20732ffc4e87326a14985150021.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/298a69785401563a2ccd22c511b0eca6d43c538e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/29903e27d03a8f1abfeea167befbf8c4411cfff6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/2cdae73f273d93607c2f4e134f853f650b4174c5.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/2d07745aa7299a3c3aa8ac34f5249c0ce181d915.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/2dc420580a7c0b74f892bac4988a9a19586bca91.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/2fdb3cc311c6aa854279ef536a3729364464cc35.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/31f9bdb58d21c30857b6b74848e9ba034ec87df5.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/32fff3eede5857da8983cc1b144df43e6b3ac709.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/33bbf6a85f81acea84b9909d02e8cfdea0e09ccd.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/33bbf6a85f81acea84b9909d02e8cfdea0e09ccd.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/36ee4243bc369e6e7a40fdbb8ebc01a6eddd4de7.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/38344d548a6770a404ca6d16a604be85d49f77b7.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/3a8a27f76516cfdeaf3f0ac8dd0e108e48f21686.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/3aa9f520d1dbc37dae63c787a8237434963207d3.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/3be0747c5bae95db17b97f64ade95596366eb76a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/3c214d4656b52efe00aba31ff7aff2bbfadd4eb6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/3f9a789cc9232b47e6ac1ccaef05472e5fda92af.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/404b2395d190ba0444bf90cbd15ea1cc64170735.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/42919d59a5d0b5541057100c20c951d18614ed85.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/43577cb09f58979f27bad72887415bab768949f7.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/468c9e00c2b4c9609c1486e1bdb96bb1b0e44fab.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4728c5a014fce04b2748c03be57a2daaf2a4de76.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/47734efb6dbd03030af6317d8e9824f06f4da63e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4a95faad4b26d357acf5c4835004e34f8f9d5140.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4c7e49d42dfb803eb4140a6388ae28192ea94038.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4c7e49d42dfb803eb4140a6388ae28192ea94038.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4c7e49d42dfb803eb4140a6388ae28192ea94038.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4c7e49d42dfb803eb4140a6388ae28192ea94038.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4e95a71e48bc12cabcb9f8b111c2f570520aff5c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4fae80dd1d554625b0081eda16b1c9ce9070f4e2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4fc629aebce131129076e19a64b90ba043a226aa.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/4fe1af02981b8e4848efd3d17c0875f377f294e0.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/53ef34c7b867096ef426259e1dcd25d0f9509e70.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5618f83843eeac4d47f0adb42438ab3fcf3a0fa1.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/574df5050fbb09bf624140c006c79559ef8edb73.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/589a49f9169ce141d1c431599aaf0e28952acfc9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/599ab1c68f7359526b7b64a0d4fb2a743099cff6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5a34e908cb736dbe34736932032d052650ab439e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5a9093f755b2372653c6829f8d5cc2b59b2b7cd1.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5bc95b8bddb0b68773d7fa5f392ce5d56fcb6e7f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5cf35be6e3bb50ade5f2c594e776ac88011ff49a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5d62b9c67d1dc47f6da0495a420b82743f9885f9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/5fdb9aa4972dc83d7e8d211c10b3a9e591fea06a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/64b03bc378815c8ad257fc41a0b75171ef0542af.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/66a4e14df30a371209913f64b6b388346cb42add.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/674f712220d1d22a33036e483b16028911e13618.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/69fe848fa0cb59968a5aadadfb63f1e593d188cf.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/6cb91ef7b5aadc6d76e7da71e74d1076da6e42e6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/6cb91ef7b5aadc6d76e7da71e74d1076da6e42e6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/6e91e9e960f262ec7d051f1e9a5a0721ea7a1ad2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/71255571e4e547e64213e18af18cac94462e9c8e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/71255571e4e547e64213e18af18cac94462e9c8e.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/71255571e4e547e64213e18af18cac94462e9c8e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/71255571e4e547e64213e18af18cac94462e9c8e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/720db607c44bda7a1a7abc1a8570c11adcfb03ef.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/722d1337d06b5ab8c5c488f692617e04b2f01698.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/722d1337d06b5ab8c5c488f692617e04b2f01698.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7301171a89672c7f3bfe6826cdff7fb1071f4375.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/76120170badaae6a585c26bd106e0c8dce868d6c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/76120170badaae6a585c26bd106e0c8dce868d6c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/76120170badaae6a585c26bd106e0c8dce868d6c.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/76120170badaae6a585c26bd106e0c8dce868d6c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/77d9a1e9ebbcda5eb1a15ad749a58256948965fb.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/78a3d9074edd9ce05fa363f8ab3ea2cff7c2f36c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/78e34c124a2c0693230ba4d84387dc5a685a81a9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7925ddcbe235f9777deba8502d22e8e85869fb5d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7ae4ca373aca7e100c82873b7c31dee013cd0f4d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7c2da314ff969fc802121411abdf493c8e41511b.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7c4aef74342d1ae4375c012d3df91846ab2b5dbe.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7f6d7b41b6b84ac8d6d65de821e67d02e39f5832.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/7f6d7b41b6b84ac8d6d65de821e67d02e39f5832.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/8153099769c557c66b52143ea728a13bf0f0ca14.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/819338f53539a14b17d332b0e2e54863c41a7210.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/8334aae57e10282edca2fc3cb4ed67bab1a189f1.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/83ace907a2daecb6afc6044450a43c64997c96ab.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/83ace907a2daecb6afc6044450a43c64997c96ab.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/83ace907a2daecb6afc6044450a43c64997c96ab.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/83ace907a2daecb6afc6044450a43c64997c96ab.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/83ec10aa7c62a9a21b7cd38ebe41ebfa4ac788d4.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/844cfca43ac34a6b6fc2334ab6c2643291727efb.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/884b9daa393f5a351fd82d13638164ad2b7ef048.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/8cadf99d5ef5a50d23ad3457356ee487fa489682.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/8da64b1006f3d6f470a02d9c094fe72f0fe4466c.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/91386bd3475fa22d275597c8460a55b5f94bafd3.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/913d7f126cd941d0f9127851e4af230241a3c2c3.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9211d96be2c30957cceee30583bbef33310c5460.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/93bb5fa7d29521983f5f88365f8dc4803ab58405.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/951977377cf2573bc1b5a211841eaa3261bf091d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/95a3271021de627ba2588b4e0d4b081135d81f56.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9600bc3fdaf80428ae07712893e3501a2c29478d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9600bc3fdaf80428ae07712893e3501a2c29478d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/962096c121088392f2fc23d37743fd2ad184a196.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/97dfc3284621339d4115fd20a213ae0ebe79ee32.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/986f44d713c2860825aa693d146b8e261719eaef.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/98ce774d80813f8b133bd73895c28939b530f0c5.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9ca5017768273e767b95abca1cbfce23791d5bbd.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9d2e01f85fa7d81885ac3aab3cfa42514c86a579.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9d7caffcded262a8e5720998e33ca35564d92d75.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9d8cd4beac4c49b3302dd611f20e52de07f3ad8b.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/9ec7028fcae58912b93b1137d9cf06f8453dd2f2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a0287575771b78cc8f38331b3331fa323bdf0420.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a1c3889dae4c4de10332a15ff00ebdf7396ba808.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a22addb6908a3e29c4ede2aea44cf601a4ef8ecc.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a4003cbac709b1a37a7b4a4a0199dba99ba3dd19.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a7023a958eca2d83e3f0b99bfa920c4ba56efbfd.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a79778dbd875ef1cdd620e33fd2f76d77955b815.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a81e1d19ed50582470e938cd8c768e7c2daaf686.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/a8c52e9b7c49eef79e222d60570398c08c4593a3.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/aa32c70d46691ad20ca8dfc3eaa4c8bb9e059e36.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/aadb6af4af21967087a427666328030d6e9c643f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/abbae8453c9191888929eb1be93f461d6df7fb24.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ad009c75508b518482f59926de587abb82c2dc1f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/adb14f0b29948ac7fe8a71aeb9142b088541051d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b03fd9452611f044af780adb9b4d9500aa793467.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b13a6778a2b0376addadabc2055128484b6586b8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b453263b3bf4b04a2add7665eacae1ea0ae80196.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b4df8e4e6f67fc13532f1e8d1d929b6b4b2379aa.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b6699725ab26e7e18479784e41ba8ff7a2bbcb96.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b67c7319746eafd020156cea547320c3180bef49.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b6974faa84fa0627687aaf8e56449e6dbdb5422c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b74cdbe35beb04a78ffb40a0d29eb379f0e4b6f8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b7bbc36c3824078bc162405f8249e0a1c145720f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b7bbc36c3824078bc162405f8249e0a1c145720f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b7bbc36c3824078bc162405f8249e0a1c145720f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b81f5902fa18035118d66911fa63df1125b03d18.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b8a15803adcbe109b44ac1be3eebc5b153b00c11.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b8c4a06475a64ef03bbfcc033637af73c587677b.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/b97196ee38c5a3779fee4b39217ea034ec434198.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/bc15c66cbc2ab56d42d04064938db0768a4d2c39.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/be28f1ada164b280b41e43b841b2fc04106e48a2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c1852314ac93bd9f1e364fefb4e6488e2d040fc6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c18c0088755c74319e80ca14df412635ad5c7f31.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c2e489b4b03afee3bf28d596a54ef7e2e2ccd0c5.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c342b1f9b42348427efdd83212d57abd6ba7ad0e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c3ced0673cfee82a604894a817fa29ed244ab79e.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c452a8011f5ad435c7feb387c5d1fb303160e519.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c6d7a81c5a09aaa7cef904b69c013be4154e08cf.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c6dc032aecb54eb6901f96bd4d9c531a0fd3becf.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c6dc032aecb54eb6901f96bd4d9c531a0fd3becf.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c6dc032aecb54eb6901f96bd4d9c531a0fd3becf.json
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c70d39e1cb03b3564fa48add694bc55760634dce.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c78b5cc0c1fa11f828b1145b939c866042836483.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/c84361276f259a4622430ff854cff56740a542f9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ca06c9591b6390a1265aceeeef8abfbf986ef4a8.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/cbfb7159cfd4984d486e32eb4621b56a6823748c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/cd977cdc343e2e15851c8ad615b3dad32f4fa1f4.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d18950ef31603189ebd51d99b8dd3607292f9516.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d2daf256e04925b9eb834736de836eb071d47a84.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d2ddb4bcf230fb3e24b0ea8114349bedd3b5e7f1.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d46c1f39a73ea45bdf7b332b7f95f02d01037abc.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d527c1715b11ebb004bbbb69904c0f3fa38f2c29.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/d76000776073521c3e205fb698c3550f19d79ded.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/da09cbcfbe13092d314bbcc9f915e25b2fd1de88.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/db69299496bc204ea3489eb46b898e9b30faaa18.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/dc495b9bb83e8d3a5323c755e5a41e0693b11190.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ded0b6c03af38012d959230108ab0cef948cbaac.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e0b00fdebea1ff5ec678f442d28fe9617615b487.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e1446950c2852fb417abbbbe2b1acf0c878b1eeb.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e35d028d6a824aa259cf224a4eb3a530699b2f58.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e36f8af0cfbdc4cf4193e418d885bcd7cac3edd6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e36f8af0cfbdc4cf4193e418d885bcd7cac3edd6.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e3db0d5a0a5c95c14110b42168c12cc695008189.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e44cb19d871019b92828f44114602f5ef6652e55.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e4acfcc25967ea3555343962b9d69172e9cbb6a2.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e4fbf9aecc53b2bbf1d24d1b7052fe8f8566b6aa.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e5fdd067fca8e3423603fa8c97d379058d748036.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e68660c04515b10d107a177651b24b97816a214f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e72a7acea8d273951b1dc8c9b451b79d93462d2a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e72a7acea8d273951b1dc8c9b451b79d93462d2a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e7ca8edbd4e6925011603dbb965b8b2211b2f3a1.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e852489b69e9410b67a8288ccad1121d9569eaee.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e8a558b52f45e66608c4dcd74430bfdb40f9b377.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e8d7a94e1bac4dd7feb5c5ad93ce7a59463464a9.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/e9da13692bf7a59aefac26f03fe3759d66170760.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ea004180ade18202edb6c1c85e8e7018882c152f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/eaef815e1415583f1217bf1d5a196f63b380af8c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ec2e84796053f22c7b34e3bf590d5f667b6e8322.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/edaf3a3c08549375590772e271b03ae55cccd20c.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ee4434387cd6f326165de148de89c28759e67e8d.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/f3d924b57301f3f7da9d01c08d786052e445cbbf.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/f6f45ae4fa967dfc8b699ede4c7231a3450396e3.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/f765bd406d3672f2bbdebad4e93498d5f86d709b.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/f7a12fea669bee67f6a0c2bf8b8d6ec0c6641470.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/f9207ae7e33cad46e2dc7c2754bb5110ebd52b39.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fb344de19f96830ae4f04e70f508067758038b3a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fb344de19f96830ae4f04e70f508067758038b3a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fb344de19f96830ae4f04e70f508067758038b3a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fb344de19f96830ae4f04e70f508067758038b3a.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fbd501500c6dbd2c95fe55b068007486d3c3e556.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fd93f0c4ba42bd9e7b001cbc5fe81b9d46812476.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fef0be633e816a219a8b1c1f85012e1135ee7049.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fef252c5b7b7eaf0193950c0c613ca7f0993758f.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/fef3bf7c40e9a9a3247d54bcb1dfef8d541a5a90.json
+
+Debug: Removing completed process record: /mnt/ssd2/tmp/mountainlab/mpdaemon/completed_processes/ffcfe189e98b14bb853e0a03443cfc6298dc9588.json
+
+SCRIPT: bandpass_filter: ./datasets/1hr/raw.mda.prv
+
+SCRIPT: ################################# ./datasets/1hr/raw.mda.prv
+
+Launching process mountainsort.bandpass_filter
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.bandpass_filter --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=30000 --testcode= --timeseries=raw/raw.probe_1hr.mda --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983179763.140138614093632.1814042643.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/1hr/geom.csv -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--1hr/geom.csv
+mountainsort.bandpass_filter:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.bandpass_filter --timeseries=raw/raw.probe_1hr.mda --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=30000 --testcode= --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_HBK047463S .
+Setting num threads: 16
+
+mountainsort.bandpass_filter:: samplerate/freq_min/freq_max/freq_wid: 30000 300 6000 1000
+
+mountainsort.bandpass_filter:: ************+++ Using chunk size / overlap size: 20000 / 2000 (num threads=16)
+20000/108000001 (0%) -- using 16 threads.
+2740000/108000001 (2%) -- using 16 threads.
+3000000/108000001 (2%) -- using 16 threads.
+5140000/108000001 (4%) -- using 16 threads.
+
+mountainsort.bandpass_filter:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.bandpass_filter
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 28.052 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.bandpass_filter
+
+Launching process mountainsort.whiten
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.whiten --quantization_unit=0 --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983150507.140138614093632.1620836711.tmp.process_output --_request_num_threads=16
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp
+
+mountainsort.whiten:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.whiten --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --quantization_unit=0 --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_C0PFFOJ76T .
+Setting num threads: 16
+
+mountainsort.whiten:: 108000001/108000001 (100%)
+21100000/108000001 (19%)
+42900000/108000001 (39%)
+64400000/108000001 (59%)
+86000000/108000001 (79%)
+107700001/108000001 (99%)
+108000001/108000001 (100%)
+
+mountainsort.whiten:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.whiten
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 35.059 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.whiten
+
+Launching process mountainsort.multineighborhood_sort
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.multineighborhood_sort --adjacency_radius=100 --clip_size=50 --consolidate_clusters=true --consolidation_factor=0.90000000000000002 --detect_interval=9 --detect_sign=-1 --detect_threshold=3 --firings_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --fit_stage=true --geom=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/1hr/geom.csv --merge_across_channels=true --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983114227.140138614093632.468362636.tmp.process_output --_request_num_threads=16
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/230607014a10be98d0aed0179b4837498a5ba7f4-mountainsort.bandpass_filter-timeseries_out.tmp
+
+mountainsort.multineighborhood_sort:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort3/bin/mountainsort3.mp mountainsort.multineighborhood_sort --geom=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/1hr/geom.csv --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --firings_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --adjacency_radius=100 --clip_size=50 --consolidate_clusters=true --consolidation_factor=0.899999976 --detect_interval=9 --detect_sign=-1 --detect_threshold=3 --fit_stage=true --merge_across_channels=true --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_87L38W0UJL .
+Setting num threads: 16
+******* Detecting events...
+Detect: Read 79 time chunks of 181...
+Detect: Read 162 time chunks of 181...
+Sorting the detected timepoints...
+Elapsed (detect):  4.586
+******* Extracting clips...
+Extract clips: Read 30 time chunks of 181...
+Extract clips: Read 92 time chunks of 181...
+Extract clips: Read 155 time chunks of 181...
+Elapsed (extract clips):  7.104
+******* Reduce clips...
+Dimension reduce clips 6x50x128198
+Dimension reduce clips 7x50x179006
+Dimension reduce clips 9x50x118630
+Dimension reduce clips 9x50x162889
+Dimension reduce clips 9x50x158207
+Dimension reduce clips 9x50x109561
+Dimension reduce clips 8x50x109663
+Dimension reduce clips 5x50x119440
+Dimension reduce clips 6x50x177874
+Dimension reduce clips 9x50x148959
+Dimension reduce clips 9x50x133387
+Dimension reduce clips 5x50x131279
+Dimension reduce clips 8x50x118093
+Dimension reduce clips 7x50x148629
+Dimension reduce clips 9x50x137191
+Dimension reduce clips 9x50x127144
+Elapsed (reduce clips):  2.703
+******* Sort reduced clips...
+Sorted 2 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 12 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 16 neighborhoods of 16...
+Elapsed (Sort reduced clips):  6.745
+******* Compute templates in neighborhoods...
+
+mountainsort.multineighborhood_sort:: Elapsed (Compute templates in neighborhoods):  0.742
+******* Consolidate clusters in neighborhoods...
+Elapsed (Consolidate clusters in neighborhoods):  0.012
+******* Deallocate data in neighborhoods...
+Elapsed (Deallocate data in neighborhoods):  0.014
+******* Collect events...
+
+mountainsort.multineighborhood_sort:: Elapsed (Collect events):  0.228
+******* Compute global templates...
+
+mountainsort.multineighborhood_sort:: Elapsed (Compute global templates):  3.142
+
+mountainsort.multineighborhood_sort:: ******* Merge across channels...
+
+mountainsort.multineighborhood_sort:: Using 2098141 of 2098141 events after 0 redundant clusters removed
+
+mountainsort.multineighborhood_sort:: Elapsed (Merge across channels):  2.994
+
+mountainsort.multineighborhood_sort:: ******* Fit stage...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 39 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 78 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 115 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 154 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 171 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 180 time chunks of 181...
+
+mountainsort.multineighborhood_sort:: Fit stage: Using 1882534 of 2098141 events
+
+mountainsort.multineighborhood_sort:: Computing global templates...
+
+mountainsort.multineighborhood_sort:: Elapsed (Fit stage):  16.575
+******* Reorder labels...
+
+mountainsort.multineighborhood_sort:: Elapsed (Reorder labels):  0.148
+******* Create firings output...
+
+mountainsort.multineighborhood_sort:: Elapsed (Create firings output):  0.094
+
+mountainsort.multineighborhood_sort:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.multineighborhood_sort
+Peak RAM: 2 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 46.076 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.multineighborhood_sort
+
+Launching process mountainsort.compute_templates
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.compute_templates --clip_size=50 --clusters= --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --templates_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/26b9f5fb8c1cf00eefe1bcdb138b1de8f8532083-mountainsort.compute_templates-templates_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983066932.140138614093632.936017334.tmp.process_output --_request_num_threads=16
+
+Launching process mountainsort.cluster_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.cluster_metrics --cluster_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a8a9b0c70e80c618439578e2b0cd88a9ddde76b2-mountainsort.cluster_metrics-cluster_metrics_out.tmp --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --samplerate=30000 --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983066930.140138614093632.772542341.tmp.process_output --_request_num_threads=16
+
+Launching process mountainsort.isolation_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.isolation_metrics --compute_bursting_parents=true --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/8bd2a42c446f28253996822a4993a8b0d8e9c719-mountainsort.isolation_metrics-metrics_out.tmp --pair_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/953b1689994b1c4ddd544426c8b08fbc7d556c4e-mountainsort.isolation_metrics-pair_metrics_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983066929.140138614093632.832126814.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--1hr/firings.mda
+mountainsort.compute_templates:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.compute_templates --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --templates_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/26b9f5fb8c1cf00eefe1bcdb138b1de8f8532083-mountainsort.compute_templates-templates_out.tmp --clip_size=50 --clusters= --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_4NTA7ZNZBL .
+Setting num threads: 16
+mountainsort.cluster_metrics:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.cluster_metrics --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --cluster_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a8a9b0c70e80c618439578e2b0cd88a9ddde76b2-mountainsort.cluster_metrics-cluster_metrics_out.tmp --samplerate=30000 --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_SFVKL79P7V .
+Setting num threads: 16
+mountainsort.isolation_metrics:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.isolation_metrics --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/f5b2b5fa4a12f8726840a53ec3bda66976d1664f-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/13339d0e47a12e47a02c485b29f9d3eb740bfe16-mountainsort.whiten-timeseries_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/8bd2a42c446f28253996822a4993a8b0d8e9c719-mountainsort.isolation_metrics-metrics_out.tmp --pair_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/953b1689994b1c4ddd544426c8b08fbc7d556c4e-mountainsort.isolation_metrics-pair_metrics_out.tmp --compute_bursting_parents=true --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_50450K0QAC .
+Setting num threads: 16
+Starting p_isolation_metrics
+Computing cluster metrics...
+
+mountainsort.cluster_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.cluster_metrics
+Peak RAM: 0 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 1.011 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.cluster_metrics
+
+mountainsort.compute_templates:: Compute templates: processing event 554907 of 1882534
+
+mountainsort.isolation_metrics:: Computing templates...
+
+mountainsort.compute_templates:: Compute templates: processing event 1130076 of 1882534
+
+mountainsort.isolation_metrics:: Determining pairs to compare...
+
+mountainsort.isolation_metrics:: Computing bursting parents...
+
+mountainsort.isolation_metrics:: preparing clusters array
+Writing output...
+
+mountainsort.compute_templates:: Compute templates: processing event 1735029 of 1882534
+
+mountainsort.compute_templates:: computing templates (M=16,T=50,K=51,L=1882534)...
+mountainsort.isolation_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.isolation_metrics
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 10.022 seconds.
+---------------------------------------------------------------
+
+
+mountainsort.compute_templates:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.compute_templates
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 11.024 seconds.
+---------------------------------------------------------------
+
+Process finished: mountainsort.isolation_metrics
+
+Launching process mountainsort.combine_cluster_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.combine_cluster_metrics --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a8a9b0c70e80c618439578e2b0cd88a9ddde76b2-mountainsort.cluster_metrics-cluster_metrics_out.tmp --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/8bd2a42c446f28253996822a4993a8b0d8e9c719-mountainsort.isolation_metrics-metrics_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/16bae5d4d59be8f91ba60427c25ba0ffe71b15c3-mountainsort.combine_cluster_metrics-metrics_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-983055707.140138614093632.1115753520.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/953b1689994b1c4ddd544426c8b08fbc7d556c4e-mountainsort.isolation_metrics-pair_metrics_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--1hr/cluster_pair_metrics.json
+mountainsort.combine_cluster_metrics:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.combine_cluster_metrics --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a8a9b0c70e80c618439578e2b0cd88a9ddde76b2-mountainsort.cluster_metrics-cluster_metrics_out.tmp --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/8bd2a42c446f28253996822a4993a8b0d8e9c719-mountainsort.isolation_metrics-metrics_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/16bae5d4d59be8f91ba60427c25ba0ffe71b15c3-mountainsort.combine_cluster_metrics-metrics_out.tmp --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_QU7TPATL4J .
+Setting num threads: 16
+
+Process finished: mountainsort.compute_templates
+
+mountainsort.combine_cluster_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.combine_cluster_metrics
+Peak RAM: 0 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 1.009 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.combine_cluster_metrics
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/16bae5d4d59be8f91ba60427c25ba0ffe71b15c3-mountainsort.combine_cluster_metrics-metrics_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--1hr/cluster_metrics.json
+
+Peak Memory (MB):
+  3.036 (mountainsort.bandpass_filter)
+  3.036 (mountainsort.whiten)
+  2.92 (mountainsort.multineighborhood_sort)
+  3.036 (mountainsort.compute_templates)
+  0 (mountainsort.cluster_metrics)
+  3.04 (mountainsort.isolation_metrics)
+
+  0 (mountainsort.combine_cluster_metrics)
+
+Peak CPU percent:
+  0 (mountainsort.bandpass_filter)
+  0 (mountainsort.whiten)
+  0 (mountainsort.multineighborhood_sort)
+  0 (mountainsort.compute_templates)
+  0 (mountainsort.cluster_metrics)
+  0 (mountainsort.isolation_metrics)
+  0 (mountainsort.combine_cluster_metrics)
+
+Avg CPU (pct):
+  0 (mountainsort.bandpass_filter)
+  0 (mountainsort.whiten)
+  0 (mountainsort.multineighborhood_sort)
+  0 (mountainsort.compute_templates)
+  0 (mountainsort.cluster_metrics)
+  0 (mountainsort.isolation_metrics)
+  0 (mountainsort.combine_cluster_metrics)
+
+Elapsed time (sec):
+
+  28.052 (mountainsort.bandpass_filter)
+
+  35.059 (mountainsort.whiten)
+
+  46.076 (mountainsort.multineighborhood_sort)
+
+  11.024 (mountainsort.compute_templates)
+
+  1.011 (mountainsort.cluster_metrics)
+
+  10.022 (mountainsort.isolation_metrics)
+
+  1.009 (mountainsort.combine_cluster_metrics)
+

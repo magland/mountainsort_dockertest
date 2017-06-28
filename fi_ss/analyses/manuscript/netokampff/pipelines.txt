@@ -1,0 +1,4 @@
+ms3 ms3.pipeline --whiten=true --detect_sign=-1 --adjacency_radius=25 --mask_out_artifacts=true
+ms2mn ms2_002.pipeline --whiten=true --curation=curation_ms2.script --detect_sign=-1 --multineighborhood=true --adjacency_radius=25 --mask_out_artifacts=true
+sc spyking_circus_001.pipeline --spike_thresh=6
+ks256 kilosort_001.pipeline --num_clusters=256

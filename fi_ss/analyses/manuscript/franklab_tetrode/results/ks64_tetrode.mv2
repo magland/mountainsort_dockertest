@@ -1,0 +1,270 @@
+{
+    "cluster_attributes": {
+        "15": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "18": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "19": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "21": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "22": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "25": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "26": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "27": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "28": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "30": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "31": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "32": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "33": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "34": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "35": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "37": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "38": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "39": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "41": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "42": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "43": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "44": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "45": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "46": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "47": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "49": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "5": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "50": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "51": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "52": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "53": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "56": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "57": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "58": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "59": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "61": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "63": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "64": {
+            "tags": [
+                "rejected"
+            ]
+        },
+        "9": {
+            "tags": [
+                "rejected"
+            ]
+        }
+    },
+    "cluster_order_scores": [
+    ],
+    "cluster_order_scores_name": "",
+    "cluster_pair_attributes": {
+    },
+    "clusters_subset": [
+    ],
+    "current_timeseries_name": "Raw Data",
+    "electrode_geometry": {
+        "coordinates": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "firings": {
+        "original_checksum": "906e2992d8452f205a755c5a74eda34b6c8f723f",
+        "original_fcs": "head1000-5b9d5aca1a484719878aa70cf1a0cffb98ec1c95",
+        "original_path": "firings_ks64_tetrode_unofficial.mda",
+        "original_size": 4588844,
+        "prv_version": "0.11"
+    },
+    "mlproxy_url": "",
+    "options": {
+        "amp_thresh_display": 3,
+        "cc_bin_size_msec": 0.5,
+        "cc_log_time_constant_msec": 1,
+        "cc_max_dt_msec": 100,
+        "cc_max_est_data_size": "1e4",
+        "clip_size": 100,
+        "discrim_hist_method": "centroid"
+    },
+    "samplerate": 30000,
+    "timeseries": {
+        "Raw Data": {
+            "data": {
+                "original_checksum": "9a42d2fb7d0e2cfd8c206c2ddc30640472ffab3d",
+                "original_fcs": "head1000-a69967240e9dcc20197157eba8b64799a84df34a",
+                "original_path": "../../raw/20160426_kanye_02_r1.nt16.mda",
+                "original_size": 666616580,
+                "prv_version": 0.1
+            },
+            "name": "Raw Data"
+        }
+    },
+    "view_merged": true,
+    "visibility_rule": {
+        "hide_rejected": true,
+        "subset": [
+        ],
+        "use_subset": false,
+        "view_all_tagged": true,
+        "view_all_untagged": true,
+        "view_tags": [
+        ]
+    },
+    "visible_channels": [
+    ]
+}

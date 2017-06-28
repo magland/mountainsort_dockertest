@@ -1,0 +1,107 @@
+See ../timing for information about timings
+
+Below is pasted the output of analyze_results.m
+
+To summarize:
+
+MountainSort:
+Sensitivity:
+Num correct: 4863
+Total true: 4895
+False negative rate: 0.00653728
+Specificity:
+Num correct: 4863
+Total detected: 4886
+False positive rate: 0.00470733
+
+KiloSort:
+Sensitivity:
+Num correct: 4856
+Total true: 4895
+False negative rate: 0.00796731
+Specificity:
+Num correct: 4856
+Total detected: 4880
+False positive rate: 0.00491803
+
+Spyking Circus:
+Sensitivity:
+Num correct: 1975
+Total true: 4895
+False negative rate: 0.596527
+Specificity:
+Num correct: 1975
+Total detected: 1975
+False positive rate: 0
+
+
+
+
+
+
+
+>> analyze_results
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ans =
+
+   201   202   172   215   208   158     1     2     3     4
+
+
+ans =
+
+        2517        2346          13          12           5           2           1           0           0           0
+           0          23       27770           0       29232       28837           0       25229        4158       15566
+         200         201         171           0         207         157           0           1           2           3
+
+Sensitivity:
+Num correct: 4863
+Total true: 4895
+False negative rate: 0.00653728
+Specificity:
+Num correct: 4863
+Total detected: 4886
+False positive rate: 0.00470733
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ KS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ans =
+
+    35   116    13     5   221    68    99    66    92   174
+
+
+ans =
+
+        4014         842           9           5           5           3           3           2           2           2
+           2          22        4639        7215        4006        4053        7628        8670        7267       10877
+          36         121          13           4         229          71         104          68          95         182
+
+Sensitivity:
+Num correct: 4856
+Total true: 4895
+False negative rate: 0.00796731
+Specificity:
+Num correct: 4856
+Total detected: 4880
+False positive rate: 0.00491803
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SC ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ans =
+
+   159    80   324    44   129   130   351   119   326   350
+
+
+ans =
+
+        1975        1502         597         297         198         100          69          65          23          19
+           0        1846        1832        6061        2208        1487         569        9718        4937        1187
+         158          79         324          43         128         129         351         118         326         350
+
+Sensitivity:
+Num correct: 1975
+Total true: 4895
+False negative rate: 0.596527
+Specificity:
+Num correct: 1975
+Total detected: 1975
+False positive rate: 0
+>> 

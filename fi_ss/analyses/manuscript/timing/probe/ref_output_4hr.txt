@@ -1,0 +1,432 @@
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: kilosort_001.pipeline
+Warning: Unable to find pipeline script path: spyking_circus_001.pipeline
++++++++++++++++++++++++++++++++++++++++++++
+{"name":"4hr","folder":"datasets/4hr","absolute_folder_path":"./datasets/4hr","dataset_params":{"samplerate":30000,"adjacency_radius":100,"detect_sign":-1,"mask_out_artifacts":"true"},"arguments":[]}
+{"name":"ms3_16thr","script":"ms3.pipeline","absolute_script_path":"/mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline","pipeline_params":{"num_threads":"16","whiten":"true","detect_sign":"-1","mask_out_artifacts":"false","compute_metrics":"true"},"arguments":[],"absolute_curation_script_path":""}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+"run-script /mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline ./datasets/4hr/params.json --raw=./datasets/4hr/raw.mda.prv --geom=./datasets/4hr/geom.csv --inpath=./datasets/4hr --samplerate=30000 --adjacency_radius=100 --detect_sign=-1 --mask_out_artifacts=false --num_threads=16 --whiten=true --compute_metrics=true --_force_run --_nodaemon --outpath=output/ms3_16thr--4hr --_script_output=output/ms3_16thr--4hr/pipeline_output.json"
+Running mountainprocess run-script /mnt/ssd2/dev/mountainlab/kron/../packages/mountainsort3/algs/ms3.pipeline ./datasets/4hr/params.json --raw=./datasets/4hr/raw.mda.prv --geom=./datasets/4hr/geom.csv --inpath=./datasets/4hr --samplerate=30000 --adjacency_radius=100 --detect_sign=-1 --mask_out_artifacts=false --num_threads=16 --whiten=true --compute_metrics=true --_force_run --_nodaemon --outpath=output/ms3_16thr--4hr --_script_output=output/ms3_16thr--4hr/pipeline_output.json
+Debug: Cleaning up completed process records...
+
+SCRIPT: bandpass_filter: ./datasets/4hr/raw.mda.prv
+
+SCRIPT: ################################# ./datasets/4hr/raw.mda.prv
+
+Launching process mountainsort.bandpass_filter
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.bandpass_filter --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=30000 --testcode= --timeseries=raw/raw.probe_4hr.mda --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982505062.139899370567488.476707713.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/4hr/geom.csv -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--4hr/geom.csv
+mountainsort.bandpass_filter:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.bandpass_filter --timeseries=raw/raw.probe_4hr.mda --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp --freq_max=6000 --freq_min=300 --freq_wid=1000 --quantization_unit=0 --samplerate=30000 --testcode= --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_T73STACYQT .
+Setting num threads: 16
+
+mountainsort.bandpass_filter:: samplerate/freq_min/freq_max/freq_wid: 30000 300 6000 1000
+
+mountainsort.bandpass_filter:: ************+++ Using chunk size / overlap size: 20000 / 2000 (num threads=16)
+20000/432000001 (0%) -- using 16 threads.
+1820000/432000001 (0%) -- using 16 threads.
+3900000/432000001 (0%) -- using 16 threads.
+5420000/432000001 (1%) -- using 16 threads.
+9980000/432000001 (2%) -- using 16 threads.
+12320000/432000001 (2%) -- using 16 threads.
+13520000/432000001 (3%) -- using 16 threads.
+14740000/432000001 (3%) -- using 16 threads.
+19180000/432000001 (4%) -- using 16 threads.
+18180000/432000001 (4%) -- using 16 threads.
+20400000/432000001 (4%) -- using 16 threads.
+21640000/432000001 (5%) -- using 16 threads.
+23880000/432000001 (5%) -- using 16 threads.
+25660000/432000001 (5%) -- using 16 threads.
+
+mountainsort.bandpass_filter:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.bandpass_filter
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 97.175 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.bandpass_filter
+
+Launching process mountainsort.whiten
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.whiten --quantization_unit=0 --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982406678.139899370567488.1970242928.tmp.process_output --_request_num_threads=16
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp
+
+mountainsort.whiten:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.whiten --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp --timeseries_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --quantization_unit=0 --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_GARXORHQJ3 .
+Setting num threads: 16
+
+mountainsort.whiten:: 214600000/432000001 (49%)
+431900001/432000001 (99%)
+432000001/432000001 (100%)
+21000000/432000001 (4%)
+42500000/432000001 (9%)
+64500000/432000001 (14%)
+86500000/432000001 (20%)
+107500000/432000001 (24%)
+128900000/432000001 (29%)
+149600000/432000001 (34%)
+171000000/432000001 (39%)
+192400000/432000001 (44%)
+213800000/432000001 (49%)
+235200000/432000001 (54%)
+256400000/432000001 (59%)
+277300000/432000001 (64%)
+298500000/432000001 (69%)
+319300000/432000001 (73%)
+340900000/432000001 (78%)
+361700000/432000001 (83%)
+382000000/432000001 (88%)
+402100000/432000001 (93%)
+423400000/432000001 (98%)
+432000001/432000001 (100%)
+
+mountainsort.whiten:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.whiten
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 142.255 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.whiten
+
+Launching process mountainsort.multineighborhood_sort
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.multineighborhood_sort --adjacency_radius=100 --clip_size=50 --consolidate_clusters=true --consolidation_factor=0.90000000000000002 --detect_interval=9 --detect_sign=-1 --detect_threshold=3 --firings_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --fit_stage=true --geom=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/4hr/geom.csv --merge_across_channels=true --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982263215.139899370567488.14330931.tmp.process_output --_request_num_threads=16
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp
+
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp
+Debug: Creating prv object for: /mnt/ssd2/tmp/mountainlab/tmp_long_term/152c236f5eb2ce36e378e8859b4126700453d3e8-mountainsort.bandpass_filter-timeseries_out.tmp
+
+mountainsort.multineighborhood_sort:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort3/bin/mountainsort3.mp mountainsort.multineighborhood_sort --geom=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/./datasets/4hr/geom.csv --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --firings_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --adjacency_radius=100 --clip_size=50 --consolidate_clusters=true --consolidation_factor=0.899999976 --detect_interval=9 --detect_sign=-1 --detect_threshold=3 --fit_stage=true --merge_across_channels=true --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_IP4ZDOKF18 .
+Setting num threads: 16
+******* Detecting events...
+Detect: Read 69 time chunks of 721...
+Detect: Read 133 time chunks of 721...
+Detect: Read 177 time chunks of 721...
+Detect: Read 212 time chunks of 721...
+Detect: Read 244 time chunks of 721...
+Detect: Read 282 time chunks of 721...
+Detect: Read 314 time chunks of 721...
+Detect: Read 343 time chunks of 721...
+Detect: Read 359 time chunks of 721...
+Detect: Read 372 time chunks of 721...
+Detect: Read 384 time chunks of 721...
+Detect: Read 400 time chunks of 721...
+Detect: Read 421 time chunks of 721...
+Detect: Read 439 time chunks of 721...
+Detect: Read 459 time chunks of 721...
+Detect: Read 477 time chunks of 721...
+Detect: Read 502 time chunks of 721...
+Detect: Read 535 time chunks of 721...
+Detect: Read 563 time chunks of 721...
+Detect: Read 584 time chunks of 721...
+Detect: Read 603 time chunks of 721...
+Detect: Read 629 time chunks of 721...
+Detect: Read 650 time chunks of 721...
+Detect: Read 670 time chunks of 721...
+Detect: Read 690 time chunks of 721...
+Detect: Read 709 time chunks of 721...
+Sorting the detected timepoints...
+Elapsed (detect):  55.367
+******* Extracting clips...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 1 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 15 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 68 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 121 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 176 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 231 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 286 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 335 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 384 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 437 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 491 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 547 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 602 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 656 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Extract clips: Read 708 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Elapsed (extract clips):  66.82
+******* Reduce clips...
+Dimension reduce clips 6x50x467495
+Dimension reduce clips 9x50x621179
+Dimension reduce clips 8x50x462203
+Dimension reduce clips 8x50x446442
+Dimension reduce clips 7x50x458673
+Dimension reduce clips 9x50x638286
+Dimension reduce clips 9x50x586140
+Dimension reduce clips 9x50x519199
+Dimension reduce clips 9x50x440796
+Dimension reduce clips 5x50x513499
+Dimension reduce clips 7x50x665335
+Dimension reduce clips 6x50x673867
+Dimension reduce clips 9x50x549709
+Dimension reduce clips 5x50x392015
+Dimension reduce clips 9x50x435833
+Dimension reduce clips 9x50x485976
+
+mountainsort.multineighborhood_sort:: Elapsed (reduce clips):  8.6
+******* Sort reduced clips...
+
+mountainsort.multineighborhood_sort:: Sorted 1 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 5 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 8 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 11 neighborhoods of 16...
+
+mountainsort.multineighborhood_sort:: Sorted 16 neighborhoods of 16...
+Elapsed (Sort reduced clips):  29.445
+******* Compute templates in neighborhoods...
+
+mountainsort.multineighborhood_sort:: Elapsed (Compute templates in neighborhoods):  2.281
+******* Consolidate clusters in neighborhoods...
+Elapsed (Consolidate clusters in neighborhoods):  0.049
+******* Deallocate data in neighborhoods...
+
+mountainsort.multineighborhood_sort:: Elapsed (Deallocate data in neighborhoods):  0.199
+******* Collect events...
+
+mountainsort.multineighborhood_sort:: Elapsed (Collect events):  1.032
+******* Compute global templates...
+
+mountainsort.multineighborhood_sort:: Elapsed (Compute global templates):  14.498
+******* Merge across channels...
+
+mountainsort.multineighborhood_sort:: Cluster is already being used: frac=0.380684, dt=1
+
+mountainsort.multineighborhood_sort:: Cluster is already being used: frac=0.941055, dt=-1
+Cluster is already being used: frac=0.852071, dt=2
+
+mountainsort.multineighborhood_sort:: Using 7717502 of 8009055 events after 3 redundant clusters removed
+
+mountainsort.multineighborhood_sort:: Elapsed (Merge across channels):  15.047
+******* Fit stage...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 43 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 89 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 128 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 169 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 211 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 252 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 290 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 329 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 368 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 408 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 453 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 497 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 536 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 578 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 616 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 656 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 686 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 706 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 718 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Read 721 time chunks of 721...
+
+mountainsort.multineighborhood_sort:: Fit stage: Using 6960157 of 7717502 events
+
+mountainsort.multineighborhood_sort:: Computing global templates...
+
+mountainsort.multineighborhood_sort:: Elapsed (Fit stage):  56.356
+******* Reorder labels...
+
+mountainsort.multineighborhood_sort:: Elapsed (Reorder labels):  0.334
+******* Create firings output...
+
+mountainsort.multineighborhood_sort:: Elapsed (Create firings output):  0.274
+
+mountainsort.multineighborhood_sort:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.multineighborhood_sort
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 251.434 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.multineighborhood_sort
+
+Launching process mountainsort.compute_templates
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.compute_templates --clip_size=50 --clusters= --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --templates_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/c712df75d3d633877eba0f1c1b1c263f19ebc5b1-mountainsort.compute_templates-templates_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982010548.139899370567488.1247977093.tmp.process_output --_request_num_threads=16
+
+Launching process mountainsort.cluster_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.cluster_metrics --cluster_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/d4f81f3e965a944de838e1c02604d43b4c59493d-mountainsort.cluster_metrics-cluster_metrics_out.tmp --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --samplerate=30000 --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982010546.139899370567488.1986692731.tmp.process_output --_request_num_threads=16
+
+Launching process mountainsort.isolation_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.isolation_metrics --compute_bursting_parents=true --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/70c4e0237ab2978584e7c0c3c03347eb7f165f3b-mountainsort.isolation_metrics-metrics_out.tmp --pair_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/34ed6d05861fad237a9f51108352c842d83a9aef-mountainsort.isolation_metrics-pair_metrics_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-982010544.139899370567488.1819186785.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--4hr/firings.mda
+mountainsort.compute_templates:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.compute_templates --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --templates_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/c712df75d3d633877eba0f1c1b1c263f19ebc5b1-mountainsort.compute_templates-templates_out.tmp --clip_size=50 --clusters= --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_VOOUSJ9HIB .
+Setting num threads: 16
+mountainsort.cluster_metrics:: Warning: Problem in TextFile::write. Could not remove file even though it exists "/mnt/ssd2/dev/mountainlab/mountainprocess/processors/mountainsort.mp.spec"
+Warning: Problem in TextFile::write. Unable to rename file at the end of the write command "/mnt/ssd2/dev/mountainlab/mountainprocess/processors/dev/bandpass_filter_aa.js.mp.spec"
+Warning: Problem in TextFile::write. Unable to rename file at the end of the write command "/mnt/ssd2/dev/mountainlab/mountainprocess/processors/dev/bandpass_filter_aa.js.mp.spec"
+STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.cluster_metrics --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --cluster_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/d4f81f3e965a944de838e1c02604d43b4c59493d-mountainsort.cluster_metrics-cluster_metrics_out.tmp --samplerate=30000 --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_K4OJRN3JFQ .
+Setting num threads: 16
+mountainsort.isolation_metrics:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.isolation_metrics --firings=/mnt/ssd2/tmp/mountainlab/tmp_long_term/a174b08195bc135cc4d920dacec562687e17cf1e-mountainsort.multineighborhood_sort-firings_out.tmp --timeseries=/mnt/ssd2/tmp/mountainlab/tmp_long_term/67ab62fe7e8320e02787bccbc7c01e2d0d5d9aa6-mountainsort.whiten-timeseries_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/70c4e0237ab2978584e7c0c3c03347eb7f165f3b-mountainsort.isolation_metrics-metrics_out.tmp --pair_metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/34ed6d05861fad237a9f51108352c842d83a9aef-mountainsort.isolation_metrics-pair_metrics_out.tmp --compute_bursting_parents=true --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_FYASURPPQB .
+Setting num threads: 16
+
+mountainsort.isolation_metrics:: Starting p_isolation_metrics
+
+mountainsort.isolation_metrics:: Computing cluster metrics...
+
+mountainsort.cluster_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.cluster_metrics
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 1.007 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.cluster_metrics
+
+mountainsort.compute_templates:: Compute templates: processing event 558958 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 1149569 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 1663664 of 6960157
+
+mountainsort.isolation_metrics:: Computing templates...
+
+mountainsort.compute_templates:: Compute templates: processing event 2231217 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 2803266 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 3378350 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 3945504 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 4516728 of 6960157
+
+mountainsort.isolation_metrics:: Determining pairs to compare...
+
+mountainsort.compute_templates:: Compute templates: processing event 5094430 of 6960157
+
+mountainsort.isolation_metrics:: Computing bursting parents...
+
+mountainsort.isolation_metrics:: preparing clusters array
+Writing output...
+
+mountainsort.isolation_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.isolation_metrics
+Peak RAM: 2 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 30.046 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.isolation_metrics
+
+Launching process mountainsort.combine_cluster_metrics
+
+Debug: /mnt/ssd2/dev/mountainlab/mountainprocess/bin/mountainprocess run-process mountainsort.combine_cluster_metrics --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/d4f81f3e965a944de838e1c02604d43b4c59493d-mountainsort.cluster_metrics-cluster_metrics_out.tmp --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/70c4e0237ab2978584e7c0c3c03347eb7f165f3b-mountainsort.isolation_metrics-metrics_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/599e409cb73794cdd9177ad8ecf859db178ab709-mountainsort.combine_cluster_metrics-metrics_out.tmp --_force_run --_working_path=/mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe --_process_output=/mnt/ssd2/tmp/mountainlab/tmp_short_term/ms.-981979280.139899370567488.637121027.tmp.process_output --_request_num_threads=16
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/34ed6d05861fad237a9f51108352c842d83a9aef-mountainsort.isolation_metrics-pair_metrics_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--4hr/cluster_pair_metrics.json
+mountainsort.combine_cluster_metrics:: STARTING: /mnt/ssd2/dev/mountainlab/packages/mountainsort2/bin/mountainsort2.mp mountainsort.combine_cluster_metrics --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/d4f81f3e965a944de838e1c02604d43b4c59493d-mountainsort.cluster_metrics-cluster_metrics_out.tmp --metrics_list=/mnt/ssd2/tmp/mountainlab/tmp_long_term/70c4e0237ab2978584e7c0c3c03347eb7f165f3b-mountainsort.isolation_metrics-metrics_out.tmp --metrics_out=/mnt/ssd2/tmp/mountainlab/tmp_long_term/599e409cb73794cdd9177ad8ecf859db178ab709-mountainsort.combine_cluster_metrics-metrics_out.tmp --_request_num_threads=16 --_tempdir=/mnt/ssd2/tmp/mountainlab/tmp_short_term/tempdir_P47VDB46TT .
+Setting num threads: 16
+
+mountainsort.compute_templates:: Compute templates: processing event 5706244 of 6960157
+
+mountainsort.combine_cluster_metrics:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.combine_cluster_metrics
+Peak RAM: 0 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 1.012 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.combine_cluster_metrics
+
+COPYING FILE: /mnt/ssd2/tmp/mountainlab/tmp_long_term/599e409cb73794cdd9177ad8ecf859db178ab709-mountainsort.combine_cluster_metrics-metrics_out.tmp -> /mnt/ssd2/dev/fi_ss/analyses/manuscript/timing/probe/output/ms3_16thr--4hr/cluster_metrics.json
+mountainsort.compute_templates:: Compute templates: processing event 6317879 of 6960157
+
+mountainsort.compute_templates:: Compute templates: processing event 6928723 of 6960157
+
+mountainsort.compute_templates:: computing templates (M=16,T=50,K=62,L=6960157)...
+
+mountainsort.compute_templates:: ---------------------------------------------------------------
+PROCESS COMPLETED (exit code = 0): mountainsort.compute_templates
+Peak RAM: 3 MB. Peak CPU: 0%. Avg CPU: 0%. Elapsed time: 38.06 seconds.
+---------------------------------------------------------------
+
+
+Process finished: mountainsort.compute_templates
+
+
+Peak Memory (MB):
+  3.092 (mountainsort.bandpass_filter)
+  3.036 (mountainsort.whiten)
+  3.104 (mountainsort.multineighborhood_sort)
+  3.032 (mountainsort.compute_templates)
+  3.048 (mountainsort.cluster_metrics)
+  2.984 (mountainsort.isolation_metrics)
+
+  0 (mountainsort.combine_cluster_metrics)
+
+Peak CPU percent:
+  0 (mountainsort.bandpass_filter)
+  0 (mountainsort.whiten)
+  0 (mountainsort.multineighborhood_sort)
+  0 (mountainsort.compute_templates)
+  0 (mountainsort.cluster_metrics)
+  0 (mountainsort.isolation_metrics)
+  0 (mountainsort.combine_cluster_metrics)
+
+Avg CPU (pct):
+  0 (mountainsort.bandpass_filter)
+  0 (mountainsort.whiten)
+  0 (mountainsort.multineighborhood_sort)
+  0 (mountainsort.compute_templates)
+  0 (mountainsort.cluster_metrics)
+  0 (mountainsort.isolation_metrics)
+  0 (mountainsort.combine_cluster_metrics)
+
+Elapsed time (sec):
+
+  97.175 (mountainsort.bandpass_filter)
+
+  142.255 (mountainsort.whiten)
+
+  251.434 (mountainsort.multineighborhood_sort)
+
+  38.06 (mountainsort.compute_templates)
+  1.007 (mountainsort.cluster_metrics)
+  30.046 (mountainsort.isolation_metrics)
+  1.012 (mountainsort.combine_cluster_metrics)
+

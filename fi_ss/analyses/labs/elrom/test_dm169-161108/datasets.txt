@@ -1,0 +1,12 @@
+d.1 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.1
+d.2 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.2
+d.3 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.3
+d.4 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.4
+d.5 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.5
+d.6 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.6
+d.7 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.7
+d.8 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.8
+d.9 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.9
+d.10 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.10
+d.11 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.11
+d.12 ../../../../datasets/labs/elrom/dm169-161108/dm169-161108.12

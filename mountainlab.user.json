@@ -1,0 +1,10 @@
+{
+    "general": {
+        "temporary_path": "/tmp"
+    },
+    "prv": {
+        "local_search_paths": [
+            "examples","/work"
+        ]
+    }
+}

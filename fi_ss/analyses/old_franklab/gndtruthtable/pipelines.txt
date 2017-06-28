@@ -1,0 +1,7 @@
+ms2mn ms2_002.pipeline --whiten=true --curation=curation_ms2.script --detect_sign=-1 --multineighborhood=true --adjacency_radius=25 --mask_out_artifacts=true
+sc spyking_circus_001.pipeline --spike_thresh=6
+
+truth1 use_truth.pipeline --firings_file_name=firings_true.mda
+
+ks256 kilosort_001.pipeline --num_clusters=256
+ks256_stored use_truth.pipeline --firings_file_name=firings_ks256.mda
