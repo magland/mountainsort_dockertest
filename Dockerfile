@@ -20,6 +20,9 @@ COPY ./mountainlab /work/mountainlab
 COPY ./fi_ss /work/fi_ss
 COPY ./mountainlab.user.json /work/mountainlab/mountainlab.user.json
 
+# Sometimes docker will not add the symlink files, so we need to do this:
+RUN cd /work/mountainlab && git checkout .
+
 # Set the path
 ENV PATH="/work/mountainlab/bin:${PATH}"
 
