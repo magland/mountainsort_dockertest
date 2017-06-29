@@ -12,16 +12,13 @@ RUN apt-get update
 RUN apt-get install -y qtdeclarative5-dev
 RUN apt-get install -y qt5-default qtbase5-dev qtscript5-dev make g++
 
-# Install fftw3, nodejs, npm, and wget
+# Install fftw3, nodejs, npm, wget
 RUN apt-get install -y libfftw3-dev nodejs npm wget
 
 # Copy the source code, example and configuration file
-COPY ./mountainlab /work/mountainlab
-COPY ./fi_ss /work/fi_ss
-COPY ./mountainlab.user.json /work/mountainlab/mountainlab.user.json
-
-# Sometimes docker will not add the symlink files, so we need to do this:
-RUN cd /work/mountainlab && git checkout .
+ADD ./mountainlab /work/mountainlab
+ADD ./fi_ss /work/fi_ss
+ADD ./mountainlab.user.json /work/mountainlab/mountainlab.user.json
 
 # Set the path
 ENV PATH="/work/mountainlab/bin:${PATH}"
