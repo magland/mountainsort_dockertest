@@ -26,5 +26,8 @@ ENV PATH="/work/mountainlab/bin:${PATH}"
 # Compile the source code
 RUN cd /work/mountainlab && ./compile_components.sh mlcommon prv mda mdaconvert mountainprocess mountainsort3 mountainsort mountainsort2
 
-# Download an example dataset and run processing
-CMD cd /work/fi_ss/analyses/manuscript/synthetic && prv-download datasets/K15/raw.mda.prv --server=river raw && kron-run ms3 K15 --_nodaemon
+# Add an example script 
+ADD ./example_script/example_script.sh /work/example_script.sh
+
+# Run the example script
+CMD /bin/bash /work/example_script.sh
